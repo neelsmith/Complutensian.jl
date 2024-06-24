@@ -15,15 +15,86 @@ using Complutensian
 :::
 
 
-readtargumglosses
+`readtargumglosses`
 
-readseptuagintglosses
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc readtargumglosses
+```
+:::
 
 
-parsevulgate
+`readseptuagintglosses`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc readseptuagintglosses
+```
+:::
 
 
+`parsevulgate`
 
-parseseptuagintglosses
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc parsevulgate
+```
+:::
 
-parsetargumglosses
+`parseseptuagintglosses`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc parseseptuagintglosses
+```
+:::
+
+`parsetargumglosses`
+
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc parsetargumglosses
+```
+:::
+
+## Analyze parsed corpora
+
+TBA
+
+## Analyze compiled verb data
+
+`loadverbdata`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc loadverbdata
+```
+:::
+
+
+`passagesforverb`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc passagesforverb
+```
+:::
+
+verblist
+
+countsbyverb

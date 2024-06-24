@@ -9,7 +9,19 @@ using Complutensian
 verbdata = loadverbdata()
 ```
 
+Find verb ids:
+
+```{julia}
+allverbs = verblist(verbdata)
+```
 ```{julia}
 gigno = "ls.n19570"
 psgsequences = passagesforverb(gigno, verbdata)
+```
+
+
+```{julia}
+verbcounts = countsbyverb(verbdata)
+
+verbcounts[gigno]
 ```

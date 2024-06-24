@@ -21,7 +21,7 @@ export verbs
 
 
 export loadverbdata
-export passagesforverb
+export passagesforverb, verblist, countsbyverb
 
 include("corpora.jl")
 include("analysis.jl")
