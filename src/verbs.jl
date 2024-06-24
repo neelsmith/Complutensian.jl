@@ -64,3 +64,39 @@ function lexemesforpsg(seq::Int, tbl::Table)
 		r.lexeme
 	end |> unique
 end
+
+"""Find occurence records for a passage identified by sequence number.
+$(SIGNATURES)
+"""
+function recordsforpsg(seq::Int, tbl::Table)
+    filter(r -> r.sequence == seq, tbl)
+end
+
+"""Find CTS URN for a passage identified by sequence number.
+$(SIGNATURES)
+"""
+function urnforpsg(seq::Int, tbl::Table)
+    map(filter(r -> r.sequence == seq, tbl)) do r
+        r.urn
+    end |> unique
+end
+
+
+"""Get set of documents where verb appears in a passage identified by sequence number.
+$(SIGNATURES)
+"""
+function documentsforverb(vrb, psg::Int, tbl::Table)
+	map(filter(r -> r.lexeme == vrb && r.sequence == psg, tbl)) do r
+		r.document
+	end |> unique
+end
+
+
+"""Get set of all documents where a verb appears in a data table.
+$(SIGNATURES)
+"""
+function documentsforverb(vrb, psg::Int, tbl::Table)
+	map(filter(r -> r.lexeme == vrb, tbl)) do r
+		r.document
+	end |> unique
+end

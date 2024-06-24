@@ -23,13 +23,16 @@ export loadlabels, labelverb
 
 
 export loadverbdata
-export passagesforverb, verblist, countsbyverb
+export recordsforpsg, urnforpsg, documentsforverb
+export passagesforverb, verblist 
+export countsbyverb
 export lexemesforpsg
+export slashline
 
 include("labels.jl")
 include("corpora.jl")
 include("analysis.jl")
 include("verbs.jl")
-
+include("scoring.jl")
 
 end # module Complutensian

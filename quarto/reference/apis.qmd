@@ -85,6 +85,17 @@ TBA
 :::
 
 
+`verblist`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc verblist
+```
+:::
+
+
 `passagesforverb`
 
 :::{.callout-note appearance="minimal"}
@@ -95,13 +106,36 @@ TBA
 ```
 :::
 
-`verblist`
+
+`urnforpsg`
 
 :::{.callout-note appearance="minimal"}
 ```{julia}
 #| echo: false
 #| warning: false
-@doc verblist
+@doc urnforpsg
+```
+:::
+
+
+
+`lexemesforpsg`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc lexemesforpsg
+```
+:::
+
+`documentsforverb`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc documentsforverb
 ```
 :::
 
@@ -117,18 +151,10 @@ TBA
 :::
 
 
-`lexemesforpsg`
-
-:::{.callout-note appearance="minimal"}
-```{julia}
-#| echo: false
-#| warning: false
-@doc lexemesforpsg
-```
-:::
+slashline
 
 
-## Labels
+## Labels for lexemes
 
 `loadlabels`
 

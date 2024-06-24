@@ -20,6 +20,15 @@ length(allverbs)
 allverbs[1]
 ```
 
+::: {.callout-tip title="Labelling lexeme IDs"}
+
+Default labelling dictionary is a list of the first `n` occurrences of the lexeme in the Vulgate.
+```{julia}
+labels = loadlabels()
+labelverb(allverbs[1]; labelsdict = labels)
+```
+:::
+
 Use a verb ID to find all passages where the verb occurs. Passages are identified by a sequential integer.
 
 ```{julia}
@@ -33,9 +42,7 @@ The result is ordered. The first occurrence of *gigno* is in the 84th passage.
 ```{julia}
 psgsequences[1]
 ```
-::: {.callout-caution}
-Add here a note on finding actual identifiers for passages.
-:::
+
 
 
 Find frequencies of each lexeme in the data set. The resulting Dict is organized by passage; since each passage has three documents, this is valuable for our alignment work.
@@ -53,14 +60,6 @@ In fact, they are the keys to the next tier, so each of those passage numbers wi
 psgnum = verbcountsbylexeme[gigno][84]
 
 psg84lexx = lexemesforpsg(psgnum, verbdata)
-```
-
-
-::: {.callout-tip title="Labelling verbs"}
-
-Default labelling dictionary is a list of the first `n` occurrences of the lexeme in the Vulgate.
-```{julia}
-labels = loadlabels()
 labelverb.(psg84lexx; labelsdict = labels)
 ```
-:::
+

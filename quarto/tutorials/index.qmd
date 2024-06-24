@@ -3,7 +3,7 @@ title: Tutorials
 ---
 
 
-
-Analyze [verb data](./verbdata.qmd)
-
 [Load and parse corpora](./parsecorpora.qmd)
+
+
+[Analyze verb data](./verbdata.qmd)
