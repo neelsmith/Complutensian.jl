@@ -2,17 +2,5 @@
 title: Reference
 ---
 
-Look it up here.
+Look it up here: APIs for all exported functions.
 
-
-
-`readvulgate` 
-
-:::{.callout-note appearance="minimal"}
-```{julia}
-#| echo: false
-#| warning: false
-using Complutensian
-@doc readvulgate
-```
-:::

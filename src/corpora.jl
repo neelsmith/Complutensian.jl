@@ -10,7 +10,10 @@ function readvulgate()
 end
 
 
-function readseptuagint(basedir)
+"""Read source data for Latin glosses on the Septuagint from a clone of the github repo in basedir.
+$(SIGNATURES)
+"""
+function readseptuagintglosses(basedir)
 	septlatinxml = joinpath(basedir, "editions", "septuagint_latin_genesis.xml")
 	septlatinxmlcorpus = readcitable(septlatinxml, CtsUrn("urn:cts:compnov:bible.genesis.sept_latin:"), TEIDivAb, FileReader)
 	lxxbldr = normalizedbuilder(; versionid = "lxxlatinnormed")
@@ -18,38 +21,58 @@ function readseptuagint(basedir)
 end
 
 
-function readtargum(basedir)
+
+"""Read source data for Latin glosses on the Targum Onkelos from a clone of the github repo in basedir.
+$(SIGNATURES)
+"""
+function readtargumglosses(basedir)
 	targumlatinxml =  joinpath(basedir, "editions", "targum_latin_genesis.xml")
 	targbldr = normalizedbuilder(; versionid = "targumlatinnormed")
 	targumlatinxmlcorpus = readcitable(targumlatinxml, CtsUrn("urn:cts:compnov:bible.genesis.sept_latin:"), TEIDivAb, FileReader)
 	targumlatin = edited(targbldr, targumlatinxmlcorpus)
 end
 
+
+"""Compile a current parser in 25-character Latin orthography.
+$(SIGNATURES)
+"""
 function parser25() 
     p25url = "http://shot.holycross.edu/tabulae/medieval-lat25-current.cex"
     tabulaeStringParser(p25url, UrlReader)
 end
 
-
+"""Compile a current parser in 23-character Latin orthography.
+$(SIGNATURES)
+"""
 function parser23() 
     p23url = "http://shot.holycross.edu/tabulae/medieval-lat23-current.cex"
     tabulaeStringParser(p23url, UrlReader)
 end
 
 
+"""Parse the Latin Vulgate using by default a parser for 25-character Latin orthography.
+$(SIGNATURES)
+"""
 function parsevulgate(c::CitableTextCorpus; parser = parser25())
     tkns = tokenizedcorpus(c, latin25())
     parsecorpus(tkns, parser)
 end
 
 
-function parsetargum(c::CitableTextCorpus; parser = parser23())
+
+"""Parse the Latin glosses on the Targum Onkelos using by default a parser for 23-character Latin orthography.
+$(SIGNATURES)
+"""
+function parsetargumglosses(c::CitableTextCorpus; parser = parser23())
     tkns = tokenizedcorpus(c, latin23())
     parsecorpus(tkns, parser)
 end
 
 
-function parseseptuagint(c::CitableTextCorpus; parser = parser23())
+"""Parse the Latin glosses on the Septuagint using by default a parser for 23-character Latin orthography.
+$(SIGNATURES)
+"""
+function parseseptuagintglosses(c::CitableTextCorpus; parser = parser23())
     tkns = tokenizedcorpus(c, latin23())
     parsecorpus(tkns, parser)
 end

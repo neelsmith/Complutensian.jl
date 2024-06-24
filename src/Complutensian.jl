@@ -14,8 +14,8 @@ using CSV
 using Documenter, DocStringExtensions
 
 export readvulgate, parsevulgate
-export readtargum, parsetargum
-export readseptuagint, parseseptuagint
+export readtargumglosses, parsetargumglosses
+export readseptuagintglosses, parseseptuagintglosses
 
 export verbs
 

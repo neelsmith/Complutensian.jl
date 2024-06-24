@@ -1,0 +1,29 @@
+# APIs
+
+
+## Reading and parsing texts
+
+`readvulgate` 
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+using Complutensian
+@doc readvulgate
+```
+:::
+
+
+readtargumglosses
+
+readseptuagintglosses
+
+
+parsevulgate
+
+
+
+parseseptuagintglosses
+
+parsetargumglosses
