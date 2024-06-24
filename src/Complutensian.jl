@@ -16,6 +16,9 @@ export readvulgate, parsevulgate
 export readtargum, parsetargum
 export readseptuagint, parseseptuagint
 
+export verbs
+
 include("corpora.jl")
+include("analysis.jl")
 
 end # module Complutensian
