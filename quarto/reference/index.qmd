@@ -2,5 +2,16 @@
 title: Reference
 ---
 
-Look it up here: APIs for all exported functions.
+
+
+**Source data** this package works with:
+
+- "standard" texts of the Masoretic text, Vulgate, Septuagint and Targum Onkelos.  (On [github](https://github.com/neelsmith/compnov))
+- original transcriptions of the Latin glosses on the Septuagint and Targum Onkelos. (On [github](https://github.com/neelsmith/complutensian-texts))
+
+
+
+**APIs** for all [exported functions](./apis.qmd) in this package 
+
+
 

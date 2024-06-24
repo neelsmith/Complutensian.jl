@@ -2,7 +2,8 @@
 title: Tutorials
 ---
 
-Learn `Complutensian.jl`.
 
 
 Analyze [verb data](./verbdata.qmd)
+
+[Load and parse corpora](./parsecorpora.qmd)

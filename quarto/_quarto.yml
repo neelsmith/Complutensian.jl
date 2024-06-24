@@ -44,6 +44,7 @@ website:
       contents: 
         - tutorials/index.qmd
         - text: "---"
+        - tutorials/parsecorpora.qmd
         - tutorials/verbdata.qmd
 
     - title: "Guides"

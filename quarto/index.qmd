@@ -1,8 +1,11 @@
 ---
-title: "PACKAGE NAME"
+title: "Complutensian.jl"
 ---
 
-Concepts and implementation in a Julia interface.
+
+`Complutensian.jl` is a Julia package for working with a digital model of the Complutensian polyglot Bible.
+
+
 
 
 | | Learning the package | Using the package |

@@ -3,4 +3,20 @@ title: Concepts
 ---
 
 
-Grok the Complutensian package.
+::: {.callout-caution}
+Content highly incomplete
+:::
+
+## Outline
+
+- What is the Complutensian polyglot Bible? Start with [wikipedia](https://en.wikipedia.org/wiki/Complutensian_Polyglot_Bible).
+- What is the digital edition this package works with?
+    - "standard" texts of the Masoretic text, Vulgate, Septuagint and Targum Onkelos.  (On [github](https://github.com/neelsmith/compnov))
+    - original transcriptions of the Latin glosses on the Septuagint and Targum Onkelos. (On [github](https://github.com/neelsmith/complutensian-texts))
+- What are the primary goals of the project that this package supports?
+    - aligning features of language across versions
+- What is the focus of work in this early stage of development?
+    - parse all Latin and Greek texts morphologically and align verbal expressions across documents
+- What are immediate next goals?
+    - develop a Hebrew morphological parser to extend the alignments to Latin, Greek and Hebrew    
+
