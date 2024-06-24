@@ -63,3 +63,9 @@ psg84lexx = lexemesforpsg(psgnum, verbdata)
 labelverb.(psg84lexx; labelsdict = labels)
 ```
 
+
+## Scoring
+
+```{julia}
+slashline(gigno, verbdata)
+```
