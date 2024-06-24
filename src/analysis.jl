@@ -1,5 +1,7 @@
 
-"""True if analysis has a verb form."""
+"""True if analysis has a verb form.
+$(SIGNATURES)
+"""
 function verbform(a::Analysis)
 	latform = latinForm(a)
 	latform isa LMFFiniteVerb ||
@@ -8,6 +10,9 @@ function verbform(a::Analysis)
 end
 
 
+"""Extract analyzed tokens for all verb forms in a collection of analzed tokens.
+$(SIGNATURES)
+"""
 function verbs(atc::AnalyzedTokenCollection)
     filter(atc.analyses) do a
 	    ! isempty(a.analyses) && verbform(a.analyses[1])
@@ -16,18 +21,24 @@ end
 
 
 
-"""Get lexeme URN of first analysis."""
-function atlex(a::AnalyzedToken)
+"""Get lexeme URN for first analysis for an analyzed token.
+$(SIGNATURES)
+"""
+function at_lex(a::AnalyzedToken)
 	a.analyses[1] |> lexemeurn
 end
 
-"""Get string values for lexical IDs of verbs in a passage."""
+"""Get string values for lexical IDs of verbs in a passage.
+$(SIGNATURES)
+"""
 function passagelexstrings(u::CtsUrn, v::Vector{AnalyzedToken})
-	retrieveparses(u,v) .|> atlex .|> string |> unique
+	retrieveparses(u,v) .|> at_lex .|> string |> unique
 end
 
 
-"""Retrieve parses from corpus for a given passage reference."""
+"""Retrieve parses from corpus for a given passage reference.
+$(SIGNATURES)
+"""
 function retrieveparses(u::CtsUrn, v::Vector{AnalyzedToken})
 	
 	if isrange(u)

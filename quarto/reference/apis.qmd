@@ -95,15 +95,58 @@ TBA
 ```
 :::
 
-verblist
+`verblist`
 
-countsbyverb
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc verblist
+```
+:::
 
-lexemesforpsg
+
+`countsbyverb`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc countsbyverb
+```
+:::
+
+
+`lexemesforpsg`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc lexemesforpsg
+```
+:::
 
 
 ## Labels
 
-loadlabels
+`loadlabels`
 
-labelverb
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc loadlabels
+```
+:::
+
+
+`labelverb`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc labelverb
+```
+:::
