@@ -3,4 +3,4 @@ title: Concepts
 ---
 
 
-Grok orthography.
+Grok the Complutensian package.

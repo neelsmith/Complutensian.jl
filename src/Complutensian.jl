@@ -12,9 +12,9 @@ using TypedTables
 using CSV
 
 
-export readvulgate
-export readtargum
-export readseptuagint
+export readvulgate, parsevulgate
+export readtargum, parsetargum
+export readseptuagint, parseseptuagint
 
 include("corpora.jl")
 

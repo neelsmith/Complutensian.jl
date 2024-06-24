@@ -21,3 +21,32 @@ function readtargum(basedir)
 	targumlatinxmlcorpus = readcitable(targumlatinxml, CtsUrn("urn:cts:compnov:bible.genesis.sept_latin:"), TEIDivAb, FileReader)
 	targumlatin = edited(targbldr, targumlatinxmlcorpus)
 end
+
+function parser25() 
+    p25url = "http://shot.holycross.edu/tabulae/medieval-lat25-current.cex"
+    tabulaeStringParser(p25url, UrlReader)
+end
+
+
+function parser23() 
+    p23url = "http://shot.holycross.edu/tabulae/medieval-lat23-current.cex"
+    tabulaeStringParser(p23url, UrlReader)
+end
+
+
+function parsevulgate(c::CitableTextCorpus; parser = parser25())
+    tkns = tokenizedcorpus(c, latin25())
+    parsecorpus(tkns, parser)
+end
+
+
+function parsetargum(c::CitableTextCorpus; parser = parser23())
+    tkns = tokenizedcorpus(c, latin23())
+    parsecorpus(tkns, parser)
+end
+
+
+function parseseptuagint(c::CitableTextCorpus; parser = parser23())
+    tkns = tokenizedcorpus(c, latin23())
+    parsecorpus(tkns, parser)
+end
