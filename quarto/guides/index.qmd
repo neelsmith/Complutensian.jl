@@ -2,4 +2,4 @@
 title: "Guides"
 ---
 
-Recipe book for working with `Orthography.jl`
+Recipe book for working with `Complutensian.jl`

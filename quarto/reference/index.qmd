@@ -6,13 +6,13 @@ Look it up here.
 
 
 
-`f` 
+`readvulgate` 
 
 :::{.callout-note appearance="minimal"}
 ```{julia}
 #| echo: false
 #| warning: false
 using YourPackage
-@doc f
+@doc readvulgate
 ```
 :::

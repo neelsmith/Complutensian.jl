@@ -5,14 +5,14 @@ theme: spacelab
 execute:
   freeze: auto
 date: last-modified  
-margin-header: "⚠️ *Draft release.*"
+margin-header: "⚠️ *Notes on pre-release package.*"
 format:
   html: 
     toc: true
 
 
 website:
-  title: "orthography"
+  title: "complutensian"
   navbar:
     background: primary
     search: true
@@ -29,7 +29,7 @@ website:
         file: reference/index.qmd  
     right:   
       - icon: github
-        href: https://github.com/hcmid/Orthography.jl
+        href: https://github.com/neelsmith/Complutensian.jl
         aria-label: GitHub
       - icon: person-circle
         menu:
