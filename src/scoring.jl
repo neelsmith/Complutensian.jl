@@ -16,3 +16,29 @@ function slashline(vrb, tbl::Table; vcounts = nothing)
 	end
 	(verb = vrb, threes = length(triples), twos = length(doubles), ones = length(singles), total = length(occrncs))
 end
+
+"""Count occurrences of other verbs in documents where a verb found in one or two documents does not appear.
+$(SIGNATURES)
+"""
+function cooccurencescores(v, tbl::Table)
+	#docids = ["septuagint", "targum", "vulgate"]
+	allalignments = []
+	psgs = passagesforverb(v, tbl)
+	
+	for psg in psgs
+        @debug("Psg: $(psg)")
+		records = filter(r -> r.sequence == psg, tbl)
+		appearsin = documentsforverb(v, psg, tbl)
+        @debug("Appears in $(appearsin)")
+		missingdocs = filter(r ->  r.sequence == psg && (r.document in appearsin) == false, tbl)
+        @debug("Missing docs: $(missingdocs)")
+		otherlexx = map(r -> r.lexeme, missingdocs)
+		for l in otherlexx
+			push!(allalignments, l)
+		end
+	end
+	
+	dict = allalignments |> countmap |> OrderedDict
+	sort(dict, byvalue=true, rev=true)
+	
+end

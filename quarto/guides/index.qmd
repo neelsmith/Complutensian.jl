@@ -2,4 +2,7 @@
 title: "Guides"
 ---
 
-Recipe book for working with `Complutensian.jl`
+Recipes for specific tasks sing `Complutensian.jl`:
+
+- [view co-occuring verbs](./viewcooccurs.qmd)
+

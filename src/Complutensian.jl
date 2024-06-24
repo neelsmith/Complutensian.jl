@@ -19,7 +19,7 @@ export readseptuagintglosses, parseseptuagintglosses
 
 export verbs
 
-export loadlabels, labelverb
+export loadlabels, labellex
 
 
 export loadverbdata
@@ -27,7 +27,7 @@ export recordsforpsg, urnforpsg, documentsforverb
 export passagesforverb, verblist 
 export countsbyverb
 export lexemesforpsg
-export slashline
+export slashline, cooccurencescores
 
 include("labels.jl")
 include("corpora.jl")

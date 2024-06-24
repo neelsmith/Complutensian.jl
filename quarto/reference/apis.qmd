@@ -153,6 +153,8 @@ TBA
 
 slashline
 
+cooccurencescores
+
 
 ## Labels for lexemes
 
@@ -167,12 +169,12 @@ slashline
 :::
 
 
-`labelverb`
+`labellex`
 
 :::{.callout-note appearance="minimal"}
 ```{julia}
 #| echo: false
 #| warning: false
-@doc labelverb
+@doc labellex
 ```
 :::

@@ -1,0 +1,47 @@
+# View co-occurrences
+
+Load verb data:
+
+
+```{julia}
+#| warning: false
+#| output: false
+using Complutensian
+verbdata = loadverbdata()
+```
+
+Verb we'll look at:
+
+```{julia}
+labels = loadlabels()
+labellex("ls.n51238")
+vivo = "ls.n51238"
+```
+
+
+```{julia}
+slashline(vivo, verbdata)
+```
+
+```{julia}
+results = cooccurencescores(vivo, verbdata)
+verbids = collect(keys(results))
+verblabels = labellex.(verbids; labelsdict = labels)
+counts = collect(values(results))
+
+resultstrings = []
+for (i,count) in enumerate(counts)
+    push!(resultstrings, string(verblabels[i], ": ", count))
+end
+resultstrings
+
+```
+
+
+```{julia}
+using Markdown
+#| asis: true
+itemlist = map(s -> "- " * s, resultstrings) 
+join(itemlist, "\n") |> Markdown.parse
+```
+

@@ -25,7 +25,7 @@ allverbs[1]
 Default labelling dictionary is a list of the first `n` occurrences of the lexeme in the Vulgate.
 ```{julia}
 labels = loadlabels()
-labelverb(allverbs[1]; labelsdict = labels)
+labellex(allverbs[1]; labelsdict = labels)
 ```
 :::
 
@@ -60,12 +60,21 @@ In fact, they are the keys to the next tier, so each of those passage numbers wi
 psgnum = verbcountsbylexeme[gigno][84]
 
 psg84lexx = lexemesforpsg(psgnum, verbdata)
-labelverb.(psg84lexx; labelsdict = labels)
+labellex.(psg84lexx; labelsdict = labels)
 ```
 
 
 ## Scoring
 
+
+
 ```{julia}
-slashline(gigno, verbdata)
+vivo = "ls.n51238"
+slashline(vivo, verbdata)
+```
+
+
+
+```{julia}
+cooccurencescores(vivo, verbdata)
 ```

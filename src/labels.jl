@@ -19,7 +19,7 @@ end
 """Compose a labelling string for a verb lexeme.
 $(SIGNATURES)
 """
-function labelverb(v; labelsdict = nothing)
+function labellex(v; labelsdict = nothing)
     dict = isnothing(labelsdict) ? loadlabels() : labelsdict
 	if haskey(dict, v)
 		dict[v]

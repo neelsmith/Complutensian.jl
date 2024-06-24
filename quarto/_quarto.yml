@@ -50,6 +50,7 @@ website:
     - title: "Guides"
       contents:
         - guides/index.qmd
+        - guides/viewcooccurs.qmd
 
     - title: "Reference"
       contents: 
