@@ -98,3 +98,12 @@ TBA
 verblist
 
 countsbyverb
+
+lexemesforpsg
+
+
+## Labels
+
+loadlabels
+
+labelverb

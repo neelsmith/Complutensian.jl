@@ -19,12 +19,17 @@ export readseptuagintglosses, parseseptuagintglosses
 
 export verbs
 
+export loadlabels, labelverb
+
 
 export loadverbdata
 export passagesforverb, verblist, countsbyverb
+export lexemesforpsg
 
+include("labels.jl")
 include("corpora.jl")
 include("analysis.jl")
 include("verbs.jl")
+
 
 end # module Complutensian

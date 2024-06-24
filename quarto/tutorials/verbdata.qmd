@@ -21,7 +21,19 @@ psgsequences = passagesforverb(gigno, verbdata)
 
 
 ```{julia}
-verbcounts = countsbyverb(verbdata)
+verbcountsbylexeme = countsbyverb(verbdata)
 
-verbcounts[gigno]
+verbcountsbylexeme[gigno]
+```
+
+
+```{julia}
+psgnum = verbcountsbylexeme[gigno][84]
+
+psg84lexx = lexemesforpsg(psgnum, verbdata)
+```
+
+```{julia}
+labels = loadlabels()
+labelverb.(psg84lexx; labelsdict = labels)
 ```

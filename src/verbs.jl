@@ -53,3 +53,14 @@ function countsbyverb(tbl::Table; verbs = nothing)
 	end
 	counts
 end
+
+
+
+"""Find the set of unique lexemes in a passage identified by sequence number.
+$SIGNATURES
+"""
+function lexemesforpsg(seq::Int, tbl::Table)
+	map(filter(r -> r.sequence == seq, tbl)) do r
+		r.lexeme
+	end |> unique
+end
