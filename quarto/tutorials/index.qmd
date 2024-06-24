@@ -3,3 +3,6 @@ title: Tutorials
 ---
 
 Learn `Complutensian.jl`.
+
+
+Analyze [verb data](./verbdata.qmd)

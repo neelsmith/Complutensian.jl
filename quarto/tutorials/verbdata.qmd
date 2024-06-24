@@ -1,0 +1,15 @@
+# Analyzing verb data
+
+Use it:
+
+```{julia}
+#| warning: false
+#| output: false
+using Complutensian
+verbdata = loadverbdata()
+```
+
+```{julia}
+gigno = "ls.n19570"
+psgsequences = passagesforverb(gigno, verbdata)
+```

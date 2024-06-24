@@ -1,5 +1,5 @@
 module Complutensian
-
+using Downloads
 using CitableBase, CitableText, CitableCorpus
 using Tabulae
 using CitableParserBuilder
@@ -11,6 +11,7 @@ using StatsBase, OrderedCollections
 using TypedTables
 using CSV
 
+using Documenter, DocStringExtensions
 
 export readvulgate, parsevulgate
 export readtargum, parsetargum
@@ -18,7 +19,12 @@ export readseptuagint, parseseptuagint
 
 export verbs
 
+
+export loadverbdata
+export passagesforverb
+
 include("corpora.jl")
 include("analysis.jl")
+include("verbs.jl")
 
 end # module Complutensian

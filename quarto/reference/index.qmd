@@ -12,7 +12,7 @@ Look it up here.
 ```{julia}
 #| echo: false
 #| warning: false
-using YourPackage
+using Complutensian
 @doc readvulgate
 ```
 :::

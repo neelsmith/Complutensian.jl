@@ -43,6 +43,8 @@ website:
     - title: "Tutorials"
       contents: 
         - tutorials/index.qmd
+        - text: "---"
+        - tutorials/verbdata.qmd
 
     - title: "Guides"
       contents:

@@ -1,3 +1,6 @@
+"""Read source data for Vulgate from github, and load as a CitableTextCorpus.
+$(SIGNATURES)
+"""
 function readvulgate()
 	srcurl = "https://raw.githubusercontent.com/neelsmith/compnov/main/corpus/compnov.cex"
 	corpus = fromcex(srcurl, CitableTextCorpus, UrlReader)
