@@ -24,7 +24,7 @@ slashline(vivo, verbdata)
 ```
 
 ```{julia}
-results = cooccurencescores(vivo, verbdata)
+results =cooccurrencescores(vivo, verbdata)
 verbids = collect(keys(results))
 verblabels = labellex.(verbids; labelsdict = labels)
 counts = collect(values(results))

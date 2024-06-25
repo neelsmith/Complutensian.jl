@@ -25,11 +25,13 @@ export loadlabels, labellex
 
 
 export loadverbdata
-export recordsforpsg, urnforpsg, documentsforverb
+export recordsforpsg, urnforpsg
+export documentsforverb, missingforverb, verbsfordocument
 export passagesforverb, verblist 
 export countsbyverb
 export lexemesforpsg
-export slashline, cooccurencescores
+export slashline,cooccurrencescores
+export align
 
 
 include("constants.jl")

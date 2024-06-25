@@ -95,6 +95,12 @@ We can also find out which of the three documents in the corpus *creo* appears i
 documentsforverb(creo, 1, verbdata)
 ```
 
+The complement to this is:
+
+```{julia}
+missingforverb(creo, 1, verbdata)
+```
+
 
 ## Scoring co-occurrences
 
@@ -116,11 +122,10 @@ How do we align it in missing slots?
 
 
 ```{julia}
-creoscores = cooccurencescores(creo, verbdata)
+creoscores =cooccurrencescores(creo, verbdata)
 ```
 
-
-Look at top two:
+The first two appear more than 50% of the time.
 
 ```{julia}
 lexids = collect(keys(creoscores))
@@ -131,8 +136,11 @@ This is promising!
 
 Can we align these in passages?
 
+## Aligning verbs
 
 Idea:
+
+Take verbs in missingdocs; place them in categories "==", or match rank
 
 
 

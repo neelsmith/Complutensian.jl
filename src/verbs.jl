@@ -97,6 +97,19 @@ function urnforpsg(seq::Int, tbl::Table)::Union{CtsUrn, Nothing}
 end
 
 
+"""Get set of documents where verb does not appear in a passage identified by sequence number.
+$(SIGNATURES)
+"""
+function missingforverb(vrb, psg::Int, tbl::Table)
+	alldocs = ["targum", "septuagint", "vulgate"]
+	present = documentsforverb(vrb, psg, tbl)
+	@info("Presnet: $(present)")
+	absent = filter(doc -> (doc in present) == false, alldocs)
+	absent
+end
+
+
+
 """Get set of documents where verb appears in a passage identified by sequence number.
 $(SIGNATURES)
 """
@@ -113,5 +126,15 @@ $(SIGNATURES)
 function documentsforverb(vrb, tbl::Table)
 	map(filter(r -> r.lexeme == vrb, tbl)) do r
 		r.document
+	end |> unique
+end
+
+
+"""Get set of documents where verb appears in a passage identified by sequence number.
+$(SIGNATURES)
+"""
+function verbsfordocument(doc, psg::Int, tbl::Table)
+	map(filter(r -> r.document == doc && r.sequence == psg, tbl)) do r
+		r.lexeme
 	end |> unique
 end

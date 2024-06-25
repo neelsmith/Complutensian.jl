@@ -139,6 +139,19 @@ TBA
 ```
 :::
 
+`missingforverb`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc missingforverb
+```
+:::
+
+verbsfordocument
+
+
 
 `countsbyverb`
 
@@ -167,7 +180,7 @@ TBA
 ```{julia}
 #| echo: false
 #| warning: false
-@doc cooccurencescores
+@doc cooccurrencescores
 ```
 :::
 
