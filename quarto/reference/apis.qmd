@@ -151,9 +151,25 @@ TBA
 :::
 
 
-slashline
+`slashline`
 
-cooccurencescores
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc slashline
+```
+:::
+
+`cooccurencescores`
+
+:::{.callout-note appearance="minimal"}
+```{julia}
+#| echo: false
+#| warning: false
+@doc cooccurencescores
+```
+:::
 
 
 ## Labels for lexemes

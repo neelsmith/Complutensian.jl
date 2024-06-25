@@ -95,7 +95,21 @@ We can also find out which of the three documents in the corpus *creo* appears i
 documentsforverb(creo, 1, verbdata)
 ```
 
+---
 
+REVISE prose:
+
+
+```{julia}
+slashline(creo, verbdata)
+```
+
+How do we align it in missing slots?
+
+
+```{julia}
+cooccurencescores(creo, verbdata)
+```
 
 ---
 
