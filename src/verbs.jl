@@ -1,4 +1,8 @@
 
+"""Read contents of a URL into a string
+without leaving messy temporary files behind.
+$(SIGNATURES)
+"""
 function readurl(u)
 	tmp = Downloads.download(u)
 	s = read(tmp, String)
@@ -30,19 +34,24 @@ end
 """Compile list of verb IDs in data table, skipping *sum* by default.
 $(SIGNATURES)
 """
-function verblist(tbl::Table; skiplist = ["ls.n46529"])
+function verblist(tbl::Table; skiplist = [Complutensian.SUM])
     verblistraw = map(r -> r.lexeme, tbl) |> unique
     filter(v -> (v in skiplist) == false, verblistraw)
 end
 
 """Compile a dictionary of counts for verbs keyed by lexeme.
 The value for each lexeme is a further dictionary of counts per passage.
+
+By default, omit the verb *sum* from the counts; optionally, supply a (possibly empty) list of verbs to skip.
+
 $(SIGNATURES)
 """
-function countsbyverb(tbl::Table; verbs = nothing)
-    countableverbs = isnothing(verbs) ? verblist(tbl) : verbs
+function countsbyverb(tbl::Table; verbs = nothing, skiplist = [Complutensian.SUM])
+    verblistraw = isnothing(verbs) ? verblist(tbl) : verbs
+	verbstocount = filter(v -> (v in skiplist) == false, verblistraw)
+
 	counts = OrderedDict()
-	for verb in countableverbs
+	for verb in verbstocount
 		subcounts = OrderedDict()
 		psgs = passagesforverb(verb, tbl)
 		for psg in psgs

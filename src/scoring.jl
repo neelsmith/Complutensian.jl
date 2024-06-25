@@ -20,7 +20,7 @@ end
 """Count occurrences of other verbs in documents where a verb found in one or two documents does not appear.
 $(SIGNATURES)
 """
-function cooccurencescores(v, tbl::Table)
+function cooccurencescores(v, tbl::Table; skiplist = [Complutensian.SUM])
 	#docids = ["septuagint", "targum", "vulgate"]
 	allalignments = []
 	psgs = passagesforverb(v, tbl)
@@ -34,7 +34,10 @@ function cooccurencescores(v, tbl::Table)
         @debug("Missing docs: $(missingdocs)")
 		otherlexx = map(r -> r.lexeme, missingdocs)
 		for l in otherlexx
-			push!(allalignments, l)
+			if l in skiplist
+			else
+				push!(allalignments, l)
+			end
 		end
 	end
 	

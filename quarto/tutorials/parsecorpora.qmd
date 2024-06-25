@@ -18,6 +18,7 @@ vulgate = readvulgate()
 ```
 
 ```{julia}
+#| warning: false
 vparses = parsevulgate(vulgate)
 ```
 
@@ -34,6 +35,7 @@ Can reuse a parser:
 
 
 ```{julia}
+#| warning: false
 p23 = parser23()
 tparses = parsetargumglosses(targumlatin; parser = p23)
 sparses = parseseptuagintglosses(lxxlatin; parser = p23)

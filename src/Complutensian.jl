@@ -31,6 +31,8 @@ export countsbyverb
 export lexemesforpsg
 export slashline, cooccurencescores
 
+
+include("constants.jl")
 include("labels.jl")
 include("corpora.jl")
 include("analysis.jl")

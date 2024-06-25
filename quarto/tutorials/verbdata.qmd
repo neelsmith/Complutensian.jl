@@ -44,8 +44,8 @@ Use a verb ID to find all passages where the verb occurs. Since we saw in the la
 
 ```{julia}
 creo = "ls.n11543"
-psgsequences = passagesforverb(creo, verbdata)
-length(psgsequences)
+creopassages = passagesforverb(creo, verbdata)
+length(creopassages)
 ```
 
 *creo* appears in fifteen passages in the corpus.
@@ -53,7 +53,7 @@ length(psgsequences)
 Passages are identified by a sequential integer. The results are ordered. We can see that *creo* occurs in the very first passage of our documents, but then not again until the twenty first.
 
 ```{julia}
-psgsequences[1:2]
+creopassages[1:2]
 ```
 
 
@@ -62,7 +62,7 @@ psgsequences[1:2]
 Although `Complutensian.jl` uses integers to identify passages in the corpus, we can find full CTS URNs for a passage.
 
 ```{julia}
-urnforpsg(psgsequences[2], verbdata)
+urnforpsg(creopassages[2], verbdata)
 ```
 :::
 
@@ -95,21 +95,47 @@ We can also find out which of the three documents in the corpus *creo* appears i
 documentsforverb(creo, 1, verbdata)
 ```
 
----
 
-REVISE prose:
+## Scoring co-occurrences
+
+::: {.callout-caution}
+This section is incomplete.
+:::
+
+
+*creo* is never used in all three documents for the same passage.
 
 
 ```{julia}
 slashline(creo, verbdata)
 ```
 
+Can we align it with other verbs in the other passages?
+
 How do we align it in missing slots?
 
 
 ```{julia}
-cooccurencescores(creo, verbdata)
+creoscores = cooccurencescores(creo, verbdata)
 ```
+
+
+Look at top two:
+
+```{julia}
+lexids = collect(keys(creoscores))
+labellex.(lexids[1:2]; labelsdict = labels)
+```
+
+This is promising!
+
+Can we align these in passages?
+
+
+Idea:
+
+
+
 
 ---
 
@@ -129,17 +155,4 @@ labellex.(psg84lexx; labelsdict = labels)
 ```
 
 
-## Scoring co-occurrences
 
-
-
-```{julia}
-vivo = "ls.n51238"
-slashline(vivo, verbdata)
-```
-
-
-
-```{julia}
-cooccurencescores(vivo, verbdata)
-```
