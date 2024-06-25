@@ -4,5 +4,6 @@ title: "Guides"
 
 Recipes for specific tasks sing `Complutensian.jl`:
 
-- [view co-occuring verbs](./viewcooccurs.qmd)
+- [view co-occurring verbs](./viewcooccurs.qmd)
+- [compile a dataset](./buildoccurs.qmd) of co-occurring verbs
 

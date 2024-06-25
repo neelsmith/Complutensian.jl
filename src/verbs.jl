@@ -30,6 +30,14 @@ function passagesforverb(vrb, tbl::Table)
 end
 
 
+"""Identify by sequence number passages in the data set.
+$(SIGNATURES)
+"""
+function passages(tbl::Table)
+	map(tbl) do r
+		r.sequence
+	end |> unique
+end
 
 """Compile list of verb IDs in data table, skipping *sum* by default.
 $(SIGNATURES)
@@ -105,7 +113,7 @@ $(SIGNATURES)
 function missingforverb(vrb, psg::Int, tbl::Table)
 	alldocs = ["targum", "septuagint", "vulgate"]
 	present = documentsforverb(vrb, psg, tbl)
-	@info("Presnet: $(present)")
+	@debug("Presnet: $(present)")
 	absent = filter(doc -> (doc in present) == false, alldocs)
 	absent
 end
@@ -136,6 +144,7 @@ end
 $(SIGNATURES)
 """
 function verbsfordocument(doc, psg::Int, tbl::Table; skiplist = [Complutensian.SUM])
+	@debug("Find verbs for $(doc) in psg $(psg)")
 	rawmatches = map(filter(r -> r.document == doc && r.sequence == psg, tbl)) do r
 		r.lexeme
 	end |> unique

@@ -51,6 +51,7 @@ website:
       contents:
         - guides/index.qmd
         - guides/viewcooccurs.qmd
+        - guides/buildcooccurs.qmd
 
     - title: "Reference"
       contents: 

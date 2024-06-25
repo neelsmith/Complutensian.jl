@@ -25,8 +25,13 @@ vparses = parsevulgate(vulgate)
 - Read glosses from a clone of the repo: if path is in variable `repo`, then:
 
 ```{julia}
+#| echo: false
+#| output: false
+#| warning: false
 repo = joinpath(pwd() |> dirname  |> dirname |> dirname,"complutensian-texts")
+```
 
+```{julia}
 targumlatin = readtargumglosses(repo)
 lxxlatin = readseptuagintglosses(repo)
 ```

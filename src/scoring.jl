@@ -58,18 +58,28 @@ $(SIGNATURES)
 """
 function alignverb(vrb, doc, psg::Int, tbl::Table)
 	docverbs = verbsfordocument(doc, psg, tbl)
-	if vrb in docverbs
+	@debug("Verbs for doc $(doc): $(docverbs)")
+	if isempty(docverbs)
+		nothing
+	elseif vrb in docverbs
 		(lexeme = vrb, rank = Complutensian.EXACT_MATCH)
 
 	else
 		rankedlist = cooccurrencescores(vrb, tbl) |> keys |> collect .|> String
+		@debug("Ranking scores for $(vrb): $(rankedlist)")
+		
 		rankings = map(v -> findfirst(lex -> lex == v, rankedlist), docverbs)		
+		@debug("Psg, $(psg), rankings $(rankings)")
 		ranking = min(rankings...)
 		(lexeme = rankedlist[ranking], rank = ranking)
 	end
 end
 
 
+
+"""Align verb across all documents.
+$(SIGNATURES)
+"""
 function alignverb(vrb, tbl::Table)
 	vulgateranks = map(passagesforverb(vrb,tbl)) do psg
 		alignverb(vrb, "vulgate", psg, tbl)

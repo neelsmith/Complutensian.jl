@@ -24,7 +24,7 @@ export verbs
 export loadlabels, labellex
 
 
-export loadverbdata
+export loadverbdata, passages
 export recordsforpsg, urnforpassage
 export documentsforverb, missingforverb, verbsfordocument
 export passagesforverb, verblist 
@@ -32,6 +32,8 @@ export countsbyverb
 export lexemesforpassage
 export slashline,cooccurrencescores
 export align, alignverb
+
+export verbform
 
 
 include("constants.jl")
