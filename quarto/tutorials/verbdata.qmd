@@ -62,7 +62,7 @@ creopassages[1:2]
 Although `Complutensian.jl` uses integers to identify passages in the corpus, we can find full CTS URNs for a passage.
 
 ```{julia}
-urnforpsg(creopassages[2], verbdata)
+urnforpassage(creopassages[2], verbdata)
 ```
 :::
 

@@ -25,7 +25,7 @@ export loadlabels, labellex
 
 
 export loadverbdata
-export recordsforpsg, urnforpsg
+export recordsforpsg, urnforpassage
 export documentsforverb, missingforverb, verbsfordocument
 export passagesforverb, verblist 
 export countsbyverb

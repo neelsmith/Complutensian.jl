@@ -107,13 +107,13 @@ TBA
 :::
 
 
-`urnforpsg`
+`urnforpassage`
 
 :::{.callout-note appearance="minimal"}
 ```{julia}
 #| echo: false
 #| warning: false
-@doc urnforpsg
+@doc urnforpassage
 ```
 :::
 

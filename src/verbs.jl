@@ -86,12 +86,12 @@ end
 """Find CTS URN for a passage identified by sequence number.
 $(SIGNATURES)
 """
-function urnforpsg(seq::Int, tbl::Table)::Union{CtsUrn, Nothing}
+function urnforpassage(seq::Int, tbl::Table)::Union{CtsUrn, Nothing}
     matches = map(filter(r -> r.sequence == seq, tbl)) do r
         r.urn
     end |> unique
 	if isempty(matches)
-		@warn("`urnforpsg`: no passage $(seq)")
+		@warn("`urnforpassage`: no passage $(seq)")
 		nothing
 	else
 		matches[1] |> CtsUrn
