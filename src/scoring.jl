@@ -59,19 +59,26 @@ $(SIGNATURES)
 function alignverb(vrb, doc, psg::Int, tbl::Table)
 	docverbs = verbsfordocument(doc, psg, tbl)
 	if vrb in docverbs
-		@info("EXACT MATCH in psg $(psg)")
-		Complutensian.EXACT_MATCH
+		(lexeme = vrb, rank = Complutensian.EXACT_MATCH)
+
 	else
-		
 		rankedlist = cooccurrencescores(vrb, tbl) |> keys |> collect .|> String
 		rankings = map(v -> findfirst(lex -> lex == v, rankedlist), docverbs)		
-
-		#@info("RANK OTHERS: $(rankings)")
-		min(rankings...)
-		
-
-
+		ranking = min(rankings...)
+		(lexeme = rankedlist[ranking], rank = ranking)
 	end
+end
 
+
+function alignverb(vrb, tbl::Table)
+	vulgateranks = map(passagesforverb(vrb,tbl)) do psg
+		alignverb(vrb, "vulgate", psg, tbl)
+	end
+	lxxranks = map(passagesforverb(vrb,tbl)) do psg
+		alignverb(vrb, "septuagint", psg, tbl)
+	end
+	targumranks = map(passagesforverb(vrb,tbl)) do psg
+		alignverb(vrb, "targum", psg, tbl)
+	end
 
 end
