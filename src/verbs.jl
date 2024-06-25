@@ -68,10 +68,12 @@ end
 """Find the set of unique lexemes in a passage identified by sequence number.
 $SIGNATURES
 """
-function lexemesforpsg(seq::Int, tbl::Table)
-	map(filter(r -> r.sequence == seq, tbl)) do r
+function lexemesforpassage(seq::Int, tbl::Table; skiplist = [Complutensian.SUM])
+	rawmatches = map(filter(r -> r.sequence == seq, tbl)) do r
 		r.lexeme
 	end |> unique
+	filter(lex -> (lex in skiplist) == false, rawmatches)
+		
 end
 
 """Find occurence records for a passage identified by sequence number.
@@ -133,8 +135,9 @@ end
 """Get set of documents where verb appears in a passage identified by sequence number.
 $(SIGNATURES)
 """
-function verbsfordocument(doc, psg::Int, tbl::Table)
-	map(filter(r -> r.document == doc && r.sequence == psg, tbl)) do r
+function verbsfordocument(doc, psg::Int, tbl::Table; skiplist = [Complutensian.SUM])
+	rawmatches = map(filter(r -> r.document == doc && r.sequence == psg, tbl)) do r
 		r.lexeme
 	end |> unique
+	filter(v -> (v in skiplist) == false, rawmatches)
 end

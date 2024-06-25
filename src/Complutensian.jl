@@ -29,9 +29,9 @@ export recordsforpsg, urnforpsg
 export documentsforverb, missingforverb, verbsfordocument
 export passagesforverb, verblist 
 export countsbyverb
-export lexemesforpsg
+export lexemesforpassage
 export slashline,cooccurrencescores
-export align
+export align, alignverb
 
 
 include("constants.jl")

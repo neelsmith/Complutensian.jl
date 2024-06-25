@@ -46,12 +46,32 @@ function cooccurrencescores(v, tbl::Table; skiplist = [Complutensian.SUM])
 end
 
 """Align ...
-$(SIGNATURE)
+$(SIGNATURES)
 """
 function align(psg::Int, tbl::Table)
 
 end
 
-function align(doc1, doc2, psg::Int, tbl::Table)
+
+"""Align one verb with verbs in a specified document in a passage.
+$(SIGNATURES)
+"""
+function alignverb(vrb, doc, psg::Int, tbl::Table)
+	docverbs = verbsfordocument(doc, psg, tbl)
+	if vrb in docverbs
+		@info("EXACT MATCH in psg $(psg)")
+		Complutensian.EXACT_MATCH
+	else
+		
+		rankedlist = cooccurrencescores(vrb, tbl) |> keys |> collect .|> String
+		rankings = map(v -> findfirst(lex -> lex == v, rankedlist), docverbs)		
+
+		#@info("RANK OTHERS: $(rankings)")
+		min(rankings...)
+		
+
+
+	end
+
 
 end

@@ -158,7 +158,7 @@ REVISE:
 
 
 ```{julia}
-psg84lexx = lexemesforpsg(1, verbdata)
+psg84lexx = lexemesforpassage(1, verbdata)
 labellex.(psg84lexx; labelsdict = labels)
 ```
 

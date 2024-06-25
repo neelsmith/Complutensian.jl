@@ -119,13 +119,13 @@ TBA
 
 
 
-`lexemesforpsg`
+`lexemesforpassage`
 
 :::{.callout-note appearance="minimal"}
 ```{julia}
 #| echo: false
 #| warning: false
-@doc lexemesforpsg
+@doc lexemesforpassage
 ```
 :::
 
