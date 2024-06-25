@@ -3,7 +3,8 @@ title: Tutorials
 ---
 
 
-[Load and parse corpora](./parsecorpora.qmd)
+
+[Load and parse corpora](./parsecorpora.qmd): start here to work directly with the texts of the Vulgate, Latin glosses on the Septuagint, and Latin glosses on the Targum Onkelos.
 
 
-[Analyze verb data](./verbdata.qmd)
+[Analyze verb data](./verbdata.qmd): start here to analyze and align co-occurring verbs in all three Latin documents using precompiled data about co-occuring verb forms.

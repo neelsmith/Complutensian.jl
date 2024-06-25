@@ -17,6 +17,8 @@ export readvulgate, parsevulgate
 export readtargumglosses, parsetargumglosses
 export readseptuagintglosses, parseseptuagintglosses
 
+export parser23, parser25
+
 export verbs
 
 export loadlabels, labellex

@@ -75,10 +75,16 @@ end
 """Find CTS URN for a passage identified by sequence number.
 $(SIGNATURES)
 """
-function urnforpsg(seq::Int, tbl::Table)
-    map(filter(r -> r.sequence == seq, tbl)) do r
+function urnforpsg(seq::Int, tbl::Table)::Union{CtsUrn, Nothing}
+    matches = map(filter(r -> r.sequence == seq, tbl)) do r
         r.urn
     end |> unique
+	if isempty(matches)
+		@warn("`urnforpsg`: no passage $(seq)")
+		nothing
+	else
+		matches[1] |> CtsUrn
+	end
 end
 
 
@@ -95,7 +101,7 @@ end
 """Get set of all documents where a verb appears in a data table.
 $(SIGNATURES)
 """
-function documentsforverb(vrb, psg::Int, tbl::Table)
+function documentsforverb(vrb, tbl::Table)
 	map(filter(r -> r.lexeme == vrb, tbl)) do r
 		r.document
 	end |> unique

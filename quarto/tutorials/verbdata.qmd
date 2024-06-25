@@ -1,6 +1,7 @@
-# Analyzing verb data
+# Align co-occurring verbs
 
-Use package, load data:
+In addition to [working directly with the texts](./parsecorpora.qmd) of the Complutensian Bible, you can download and analyze precompiled records of co-occurring verb forms. 
+
 
 ```{julia}
 #| warning: false
@@ -9,62 +10,112 @@ using Complutensian
 verbdata = loadverbdata()
 ```
 
-Collect all verb ids:
+
+## Verbs in the corpus
+
+Get a list of all verbs appearing in the data set:
 
 ```{julia}
 allverbs = verblist(verbdata)
 length(allverbs)
 ```
 
+
+Verbs are identified with string values for `LexemeUrn`s (from the `CitableParserBuilder` package).
+
 ```{julia}
 allverbs[1]
 ```
 
-::: {.callout-tip title="Labelling lexeme IDs"}
+`Complutensian.jl` gives you lots of functions that can work with these lexeme IDs.
 
-Default labelling dictionary is a list of the first `n` occurrences of the lexeme in the Vulgate.
+
+`Complutensian.jl` includes functions to label these IDs with strings human beings can interpret. You can download a dictionary that labels lexemes with the first  occurrences of the lexeme in the Vulgate.
 ```{julia}
 labels = loadlabels()
 labellex(allverbs[1]; labelsdict = labels)
 ```
-:::
 
-Use a verb ID to find all passages where the verb occurs. Passages are identified by a sequential integer.
+
+
+## Passages in the corpus
+
+Use a verb ID to find all passages where the verb occurs. Since we saw in the labelling information that `ls.n11543` is the ID for the verb *creo*, we'll use a more mnemonic variable name to make our code readable.
 
 ```{julia}
-gigno = "ls.n19570"
-psgsequences = passagesforverb(gigno, verbdata)
+creo = "ls.n11543"
+psgsequences = passagesforverb(creo, verbdata)
 length(psgsequences)
 ```
 
-The result is ordered. The first occurrence of *gigno* is in the 84th passage.
+*creo* appears in fifteen passages in the corpus.
+
+Passages are identified by a sequential integer. The results are ordered. We can see that *creo* occurs in the very first passage of our documents, but then not again until the twenty first.
 
 ```{julia}
-psgsequences[1]
+psgsequences[1:2]
 ```
 
 
 
-Find frequencies of each lexeme in the data set. The resulting Dict is organized by passage; since each passage has three documents, this is valuable for our alignment work.
+::: {.callout-tip title="Canonical identifiers"}
+Although `Complutensian.jl` uses integers to identify passages in the corpus, we can find full CTS URNs for a passage.
 
-The size of this dictionary will be the same as the number of passages.
+```{julia}
+urnforpsg(psgsequences[2], verbdata)
+```
+:::
+
+## Frequencies in a multi-document corpus
+
+The compilation of verb co-occurences records the verbs in each passage for the Vulgate, the Latin glosses on the Septuagint, and the Latin glosses on the Targum Onkelos.
+
+We can compile a dictionary of how many times a verb appears in these three documents for each passage.
+
+If we look up *creo* in that dictionary, we will get a second dictionary keyed by passages where *creo* occurs.
 
 ```{julia}
 verbcountsbylexeme = countsbyverb(verbdata)
-verbcountsbylexeme[gigno] |> length
+verbcountsbylexeme[creo] |> length
 ```
 
-In fact, they are the keys to the next tier, so each of those passage numbers will next give us
-*all* the other lexemes in that passage: the cooccurrence list, on other words.
-```{julia}
-psgnum = verbcountsbylexeme[gigno][84]
 
-psg84lexx = lexemesforpsg(psgnum, verbdata)
+Note that since this dictionary for *creo* is keyed by passages where *creo* occurs, its size will be the same as the number of passages for *creo* that we have already seen.
+
+We can now find how many times *creo* appears in a a given passage. In the first passage, for example, *creo* appears twice.
+
+```{julia}
+verbcountsbylexeme[creo][1]
+```
+
+
+We can also find out which of the three documents in the corpus *creo* appears in for a passage.
+
+```{julia}
+documentsforverb(creo, 1, verbdata)
+```
+
+
+
+---
+
+REVISE:
+
+
+
+
+
+
+
+
+
+```{julia}
+psg84lexx = lexemesforpsg(1, verbdata)
 labellex.(psg84lexx; labelsdict = labels)
 ```
 
 
-## Scoring
+## Scoring co-occurrences
 
 
 
