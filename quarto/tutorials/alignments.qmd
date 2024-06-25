@@ -1,0 +1,92 @@
+# Aligning verbs in parallel passages
+
+Load verb data and labelling dictionary:
+
+```{julia}
+#| warning: false
+#| output: false
+using Complutensian
+verbdata = loadverbdata()
+labels = loadlabels()
+```
+
+Find passages for verb of your choice
+```{julia}
+#| output: false
+creo = "ls.n11543"
+psgids = passagesforverb(creo,verbdata)
+```
+
+Get rankings for Vulgate.
+
+```{julia}	
+#| output: false
+vulgateranks = map(psg -> alignverb(creo, "vulgate", psg, verbdata), psgids) 
+```		
+
+Output looks like this:
+
+```{julia}	
+vulgateranks[1]
+```
+
+
+```{julia}	
+#| output: false
+lxxranks = map(psg -> alignverb(creo, "septuagint", psg, verbdata), psgids) 
+```	
+
+```{julia}
+lxxranks[1]
+```
+
+```{julia}	
+#| output: false
+targumranks = map(psg -> alignverb(creo, "targum", psg, verbdata), psgids) 
+```	
+
+## HTML table of the rankings
+
+
+Throw some CSS at it to highlight sections flagged as exact match.
+
+```{julia}
+#| output: false
+css = """<style>
+.match {
+	background-color: yellow;
+	font-weight: bold;
+}
+</style>
+"""
+```
+
+Make a table with four columns: the passage reference plus the alignment of the chosen verb in each of the three documents. If the verb itself appears, we'll tag it with a span marked as a `match`.
+
+```{julia}
+#| output: false
+htmlout = [
+    "<table>",
+	"<tr><th>Passage</th><th>Vulgate</th><th>Septuagint</th><th>Targum</th></tr>"
+]
+
+psglabels = map(psg -> urnforpassage(psg, verbdata), psgids)
+
+for i in 1:length(vulgateranks)
+
+    v = vulgateranks[i].rank == 0 ? "<span class=\"match\">match</span>" : string("<b>",vulgateranks[i].rank,  "</b> ",  labellex(vulgateranks[i].lexeme; labelsdict = labels))
+
+    s = lxxranks[i].rank == 0 ? "<span class=\"match\">match</span>"  : string("<b>", lxxranks[i].rank,  "</b> ",  labellex(lxxranks[i].lexeme; labelsdict = labels))
+
+    t = targumranks[i].rank == 0 ? "<span class=\"match\">match</span>" : string("<b>", targumranks[i].rank,  "</b> ",  labellex(targumranks[i].lexeme; labelsdict = labels))
+    row = "<tr><td>$(psglabels[i])</td><td>$(v)</td><td>$(s)</td><td>$(t)</td></tr>"
+    push!(htmlout, row)
+end
+push!(htmlout, "</table>")
+```
+
+Paste together the CSS and the table, and use `HTML` to create display in environments like Jupyter, Quarto, or Pluto.
+
+```{julia}
+HTML(css * join(htmlout))
+```

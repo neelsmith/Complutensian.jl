@@ -1,4 +1,4 @@
-# Align co-occurring verbs
+# Exploring co-occurring verb data
 
 In addition to [working directly with the texts](./parsecorpora.qmd) of the Complutensian Bible, you can download and analyze precompiled records of co-occurring verb forms. 
 
@@ -132,35 +132,5 @@ lexids = collect(keys(creoscores))
 labellex.(lexids[1:2]; labelsdict = labels)
 ```
 
-This is promising!
-
-Can we align these in passages?
-
-## Aligning verbs
-
-Idea:
-
-Take verbs in missingdocs; place them in categories "==", or match rank
-
-
-
-
----
-
-REVISE:
-
-
-
-
-
-
-
-
-
-```{julia}
-psg84lexx = lexemesforpassage(1, verbdata)
-labellex.(psg84lexx; labelsdict = labels)
-```
-
-
+This is actually the logical basis for the alignment features describe in [this tutorial](./alignments.qmd)
 

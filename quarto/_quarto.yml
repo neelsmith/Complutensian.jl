@@ -45,6 +45,7 @@ website:
         - tutorials/index.qmd
         - text: "---"
         - tutorials/parsecorpora.qmd
+        - tutorials/alignments.qmd
         - tutorials/verbdata.qmd
 
     - title: "Guides"
@@ -61,6 +62,7 @@ website:
     - title: "Concepts"
       contents: 
         - concepts/index.qmd
+        - concepts/alignment.qmd
 
         
 

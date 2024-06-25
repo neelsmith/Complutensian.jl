@@ -1,0 +1,26 @@
+# Aligning verbal features
+
+
+::: {.callout-caution}
+Content highly incomplete
+:::
+
+## Outline
+
+### Intra-lingual alignment
+
+- document content is aligned by canonical citation
+- parse documents
+- filter to isolate verbal features
+- see if same lexical entity occurs in a document
+- if not, see how often entity cooccurs with each other verb
+- for verbs in "missing" documents of a passage, find highest rank co-occurrence
+
+### Cross-lingual alignment
+
+- parse parallel documents in all languages
+- extend the method in cases of non-identical lexemes
+
+
+
+
