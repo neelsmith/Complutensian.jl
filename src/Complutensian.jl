@@ -24,7 +24,8 @@ export verbs
 export loadlabels, labellex
 
 
-export loadverbdata, passages
+export loadverbdata, passages, documentsforpassage
+export misaligned
 export recordsforpsg, urnforpassage
 export documentsforverb, missingforverb, verbsfordocument
 export passagesforverb, verblist 
@@ -42,5 +43,6 @@ include("corpora.jl")
 include("analysis.jl")
 include("verbs.jl")
 include("scoring.jl")
+include("datacompiler.jl")
 
 end # module Complutensian

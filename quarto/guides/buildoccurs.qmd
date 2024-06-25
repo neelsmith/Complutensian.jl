@@ -1,81 +1,31 @@
 # Build a dataset of co-occurring verbs
 
-This is the structure we want to produce:
 
-`sequence,urn,document,lexeme`
 
-Start by getting complete parses of the three Latin documents. (See tutorial.)
+You can build a table of verb occurences from a clone or copy of the [`complutensian-texts`](https://github.com/neelsmith/complutensian-texts) repository.
+
+
+::: {.callout-warning title="This is slooow!"}
+Building the table can easily take 1-2 minutes on a personal computer.
+:::
+
 
 ```{julia}
 #| echo: false
-#| output: false
 #| warning: false
-repo = joinpath(pwd() |> dirname  |> dirname |> dirname,"complutensian-texts")
+#| output: false
+textrepo = joinpath(pwd() |> dirname |> dirname |> dirname, "complutensian-texts")
 ```
 
-::: {.callout-note title="Fold this code block"}
-The following block should be hidden by default.
-
-:::
 ```{julia}
 #| warning: false
 using Complutensian
-vulgate = readvulgate()
-vparses = parsevulgate(vulgate)
-
-targumlatin = readtargumglosses(repo)
-lxxlatin = readseptuagintglosses(repo)
-p23 = parser23()
-tparses = parsetargumglosses(targumlatin; parser = p23)
-sparses = parseseptuagintglosses(lxxlatin; parser = p23)
-
+tbl = Complutensian.compileverbtable(textrepo)
 ```
 
+The result is a `TypedTable`.  You can use the `CSV` package to write the table to a delimited-text file:
 
 ```{julia}
-lxxverbs = filter(sparses.analyses) do a
-	! isempty(a.analyses) && verbform(a.analyses[1])
-end
-targumverbs = filter(tparses.analyses) do a
-	! isempty(a.analyses) && verbform(a.analyses[1])
-end
-vulgateverbs = filter(vparses.analyses) do a
-	! isempty(a.analyses) && verbform(a.analyses[1])
-end
-```
-
-```{julia}
-using Tables
-
-"""Compose a TypedTable for our data."""
-function populatettable(urnlist, tverbs, sverbs, vverbs)	
-	seq = []
-	urns = []
-	docs = []
-	lexemes = []
-	for (i,u) in enumerate(urnlist)
-		if i % 5 == 0
-			@info("Passage $(i)/$(length(urnlist))...")
-		end
-		for lex in passagelexstrings(u, vverbs)
-			push!(seq, i)
-			push!(urns, u)
-			push!(docs,"vulgate")
-			push!(lexemes, lex)
-		end
-		for lex in passagelexstrings(u, tverbs)
-			push!(seq, i)
-			push!(urns, u)
-			push!(docs,"targum")
-			push!(lexemes, lex)
-		end
-		for lex in passagelexstrings(u, sverbs)
-			push!(seq, i)
-			push!(urns, u)
-			push!(docs,"septuagint")
-			push!(lexemes, lex)
-		end
-	end
-    Table(sequence = seq, urn = urns, document = docs, lexeme = lexemes)
-end
+using CSV
+CSV.write("outputfile.csv", tbl)
 ```

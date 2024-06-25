@@ -17,6 +17,8 @@ $(SIGNATURES)
 function loadverbdata()
     url = "http://shot.holycross.edu/complutensian/verblexemes-current.csv"
     dataraw = CSV.File(IOBuffer(readurl(url))) |> Table
+	baddata = misaligned(dataraw)
+	filter(r -> (r.sequence in baddata) == false, dataraw)
 end
 
 
@@ -130,6 +132,17 @@ function documentsforverb(vrb, psg::Int, tbl::Table)
 end
 
 
+
+"""Get set of documents for a passage identified by sequence number.
+$(SIGNATURES)
+"""
+function documentsforpassage(psg::Int, tbl::Table)
+	map(filter(r -> r.sequence == psg, tbl)) do r
+		r.document
+	end |> unique
+end
+
+
 """Get set of all documents where a verb appears in a data table.
 $(SIGNATURES)
 """
@@ -149,4 +162,12 @@ function verbsfordocument(doc, psg::Int, tbl::Table; skiplist = [Complutensian.S
 		r.lexeme
 	end |> unique
 	filter(v -> (v in skiplist) == false, rawmatches)
+end
+
+
+function misaligned(tbl::Table)
+	filter(passages(tbl)) do p
+		dlist = documentsforpassage(p, tbl)
+		length(dlist) < 3
+	end
 end
