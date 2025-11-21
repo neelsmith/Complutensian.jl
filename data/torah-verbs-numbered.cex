@@ -927,8 +927,8 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 926|genesis 11.23|וַיְחִֽי|V-Qal-ConsecImperf-3ms|חיה|Vixit|V-Perf-Act-Ind-3s|vivo|ἔζησεν|V-Aor-Act-Ind-3s|ζάω|וַחֲיָא|V-Peal-Perf-3ms|חיי|
 927|genesis 11.23|הוֹלִידֹו|V-Hif-InfCons-3ms-suff|ילד|genuit|V-Perf-Act-Ind-3s|gigno|γεννῆσαι|V-Aor-Act-Inf|γεννάω|אוֹלִיד|V-Aphel-Perf-3ms|ילד|
 928|genesis 11.23|וַיֹּולֶד|V-Hif-ConsecImperf-3ms|ילד|genuit|V-Perf-Act-Ind-3s|gigno|ἐγέννησεν|V-Aor-Act-Ind-3s|γεννάω|וְאוֹלִיד|V-Aphel-Perf-3ms|ילד|
-929|genesis 11.24|וַיְחִ֥י|verb|qal|wayyiqtol|3ms|חיה|Vixit|verb|perfect|indicative|active|3s|vivo|ἔζησεν|verb|aorist|indicative|active|3s|ζάω|וַחֲיָא|verb|peal|perfect|3ms|חֲיָא||
-930|genesis 11.24|וַיּ֖וֹלֶד|verb|hifil|wayyiqtol|3ms|ילד|genuit|verb|perfect|indicative|active|3s|gigno|ἐγέννησεν|verb|aorist|indicative|active|3s|γεννάω|וְאוֹלִיד|verb|afel|perfect|3ms|יְלַד||
+929|genesis 11.24|וַיְחִ֥י|verb qal wayyiqtol 3ms|חיה|Vixit|verb perfect indicative active 3s|vivo|ἔζησεν|verb aorist indicative active 3s|ζάω|וַחֲיָא|verb peal perfect 3ms|חֲיָא||
+930|genesis 11.24|וַיּ֖וֹלֶד|verb hifil wayyiqtol 3ms|ילד|genuit|verb perfect indicative active 3s|gigno|ἐγέννησεν|verb aorist indicative active 3s|γεννάω|וְאוֹלִיד|verb afel perfect 3ms|יְלַד||
 931|genesis 11.25|וַיְחִֽי|Verb, Qal, Waw-Consecutive Imperfect, 3ms|חיה|Vixit|Verb, Perfect, Active, Indicative, 3s|vivo|ἔζησεν|Verb, Aorist, Active, Indicative, 3s|ζάω|וַחֲיָא|Verb, Peal, Perfect, 3ms|חיי||
 932|genesis 11.25|הֹולִידֹו|Verb, Hiphil, Infinitive Construct + 3ms suffix|ילד|genuit|Verb, Perfect, Active, Indicative, 3s|gigno|γεννῆσαι|Verb, Aorist, Active, Infinitive|γεννάω|דְאוֹלִיד|Relative Particle + Verb, Aph'el, Perfect, 3ms|ילד||
 933|genesis 11.25|וַיֹּ֖ולֶד|Verb, Hiphil, Waw-Consecutive Imperfect, 3ms|ילד|genuit|Verb, Perfect, Active, Indicative, 3s|gigno|ἐγέννησεν|Verb, Aorist, Active, Indicative, 3s|γεννάω|וְאוֹלִיד|Verb, Aph'el, Perfect, 3ms|ילד||
@@ -1279,8 +1279,8 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 1278|genesis 16.6||||libet|present indicative active, 3rd person singular, impersonal|libet|ᾖ|present subjunctive active, 3rd person singular|εἰμί|דְּתָקֵן|Peal imperfect, 3rd person masculine singular|תקן|
 1279|genesis 16.6|וַתְּעַנֶּהָ|Piel consecutive imperfect, 3rd person feminine singular + 3fs suffix|ענה|Affligente|present active participle, ablative singular feminine|affligo|ἐκάκωσεν|aorist indicative active, 3rd person singular|κακόω|וְעַנְּיַתַהּ|Pael perfect, 3rd person feminine singular + 3fs suffix|עני|
 1280|genesis 16.6|וַתִּבְרַח|Qal consecutive imperfect, 3rd person feminine singular|ברח|aufugit|perfect indicative active, 3rd person singular|aufugio|ἀπέδρα|aorist indicative active, 3rd person singular|ἀποδιδράσκω|וַעֲרַקַת|Peal perfect, 3rd person feminine singular|ערק|
-1281|genesis 16.7|וַיִּמְצָאָהּ|verb|qal|waw-consecutive_imperfect|3ms|w_3fs_suffix|מצא|invenisset|verb|pluperfect|active|subjunctive|3s|invenio|εὗρεν|verb|aorist|active|indicative|3s|εὑρίσκω|וְאַשְׁכְּחַהּ|verb|peal|perfect|3ms|w_3fs_suffix|אשׁכח|
-1282|genesis 16.7|||||est|verb|present|active|indicative|3s|sum|||||||The Vulgate explicitly includes a copula "is" which is implied in the other versions.
+1281|genesis 16.7|וַיִּמְצָאָהּ|verb qal waw-consecutive_imperfect 3ms w_3fs_suffix|מצא|invenisset|verb pluperfect active subjunctive 3s|invenio|εὗρεν|verb aorist active indicative 3s|εὑρίσκω|וְאַשְׁכְּחַהּ|verb peal perfect 3ms w_3fs_suffix|אשׁכח|
+1282|genesis 16.7|||||est|verb present active indicative 3s|sum|||||||The Vulgate explicitly includes a copula "is" which is implied in the other versions.
 1283|genesis 16.8|וַיֹּאמַר|Verb, Qal, Wayyiqtol, 3ms|אמר|dixit|Verb, Perfect, Active, Indicative, 3s|dico|εἶπεν|Verb, Aorist, Active, Indicative, 3s|λέγω|וַאֲמַר|Verb, Peal, Perfect, 3ms|אמר||
 1284|genesis 16.8|בָאת|Verb, Qal, Perfect, 2fs|בוא|venis|Verb, Present, Active, Indicative, 2s|venio|ἔρχῃ|Verb, Present, Middle, Indicative, 2s|ἔρχομαι|אָתְיָא|Participle, Peal, Active, fs|אתא||
 1285|genesis 16.8|תֵלֵכִי|Verb, Qal, Imperfect, 2fs|הלך|vadis|Verb, Present, Active, Indicative, 2s|vado|πορεύῃ|Verb, Present, Middle, Indicative, 2s|πορεύομαι|אָזְלָא|Participle, Peal, Active, fs|אזל||
@@ -2163,8 +2163,8 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 2162|genesis 24.8|לָלֶכֶת|Qal Infinitive Construct|הלך|πορευθῆναι|Aorist Infinitive Passive|πορεύομαι|sequi|Present Infinitive Passive|sequor|לְמֵיתֵי|Peal Infinitive|אתא|
 2163|genesis 24.8|וְנִקִּיתָ|Niphal Perfect 2ms (waw-consecutive)|נקה|ἔσῃ|Future Indicative Middle 2s|εἰμί|teneberis|Future Indicative Passive 2s|teneo|וּתְהֵי|Peal Imperfect 2ms|הוה|
 2164|genesis 24.8|תָשֵׁב|Hiphil Imperfect 2ms|שׁוב|ἀποστρέψῃς|Aorist Subjunctive Active 2s|ἀποστρέφω|reducas|Present Subjunctive Active 2s|reduco|תָתֵיב|Aphel Imperfect 2ms|תוב|
-2165|genesis 24.9|וַיָּשֶׂם|verb|qal|wayyiqtol|3ms|שׂים|ἔθηκεν|verb|aorist|active|indicative|3s|τίθημι|posuit|verb|perfect|active|indicative|3s|pono|וְשָׂם|verb|peal|perfect|3ms|שׂוּם||
-2166|genesis 24.9|וַיִּשָּׁבַע|verb|niphal|wayyiqtol|3ms|שׁבע|ὤμοσεν|verb|aorist|active|indicative|3s|ὄμνυμι|iuravit|verb|perfect|active|indicative|3s|iuro|וְקַיֵים|verb|pael|perfect|3ms|קום||
+2165|genesis 24.9|וַיָּשֶׂם|verb qal wayyiqtol 3ms|שׂים|ἔθηκεν|verb aorist active indicative 3s|τίθημι|posuit|verb perfect active indicative 3s|pono|וְשָׂם|verb peal perfect 3ms|שׂוּם||
+2166|genesis 24.9|וַיִּשָּׁבַע|verb niphal wayyiqtol 3ms|שׁבע|ὤμοσεν|verb aorist active indicative 3s|ὄμνυμι|iuravit|verb perfect active indicative 3s|iuro|וְקַיֵים|verb pael perfect 3ms|קום||
 2167|genesis 24.10|וַיִּקַּח|Verb, Qal, Waw-consecutive imperfect, 3ms|לָקַח|tulit|Verb, Perfect, Active, Indicative, 3s|fero|ἔλαβεν|Verb, Aorist, Active, Indicative, 3s|λαμβάνω|וּדְבַר|Verb, Peal, Perfect, 3ms|דְּבַר|
 2168|genesis 24.10|וַיֵּלֶךְ|Verb, Qal, Waw-consecutive imperfect, 3ms|הָלַךְ|abiit|Verb, Perfect, Active, Indicative, 3s|abeo|||||||
 2169|genesis 24.10||||habens|Verb, Present, Active, Participle, Nom Masc Sg|habeo|||||||
@@ -2558,7 +2558,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 2557|genesis 26.4|וְהִתְבָּרֲכוּ|Conjunctive Waw + Hithpael perfect 3cp|ברך|benedicentur|Future passive indicative 3p|benedico|ἐνευλογηθήσονται|Future passive indicative 3p|ἐνευλογέω|וְיִתְבָּרְכוּן|Conjunctive Waw + Ithpeel imperfect 3mp|ברך||
 2558|genesis 26.5|שָׁמַע|Qal Perfect 3ms|שׁמע|oboedierit|Perfect Active Subjunctive 3s|oboedio|ὑπήκουσεν|Aorist Active Indicative 3s|ὑπακούω|קַבֵּיל|Pa'el Perfect 3ms|קבל||
 2559|genesis 26.5|וַיִּשְׁמֹר|Qal Vayiqtol 3ms|שׁמר|custodierit|Perfect Active Subjunctive 3s|custodio|ἐφύλαξεν|Aorist Active Indicative 3s|φυλάσσω|וּנְטַר|Pe'al Perfect 3ms + Waw|נטר||
-2560|genesis 26.5||||servaverit|Perfect Active Subjunctive 3s|servo|||||||The Vulgate uses 'custodierit' (previous row) and 'servaverit' to render the single Hebrew verb וַיִּשְׁמֹר.|Reference|Hebrew Form|Hebrew Morphology|Hebrew Lemma|Greek Form|Greek Morphology|Greek Lemma|Latin Form|Latin Morphology|Latin Lemma|Aramaic Form|Aramaic Morphology|Aramaic Lemma|Notes
+2560|genesis 26.5||||servaverit|Perfect Active Subjunctive 3s|servo|||||||The Vulgate uses 'custodierit' (previous row) and 'servaverit' to render the single Hebrew verb וַיִּשְׁמֹר.
 2561|genesis 26.6|וַיֵּשֶׁב|Verb, Qal, Wayyiqtol, 3ms|ישׁב|κατῴκησεν|Verb, Aorist, Active, Indicative, 3s|κατοικέω|habitavit|Verb, Perfect, Active, Indicative, 3s|habito|וִיתֵיב|Verb, Pe'al, Perfect, 3ms|יתב|
 2562|genesis 26.7|וַיִּשְׁאֲלוּ|Verb, Qal, Waw-Consecutive Imperfect, 3mp|שׁאל|interrogarent|Verb, Imperfect, Active, Subjunctive, 3pl|interrogo|ἐπηρώτων|Verb, Imperfect, Active, Indicative, 3pl|ἐπερωτάω|וּשְׁאִילוּ|Verb, Peal, Perfect, 3mp|שׁאל||
 2563|genesis 26.7|וַיֹּאמֶר|Verb, Qal, Waw-Consecutive Imperfect, 3ms|אמר|respondit|Verb, Perfect, Active, Indicative, 3s|respondeo|εἶπεν|Verb, Aorist, Active, Indicative, 3s|λέγω|וַאֲמַר|Verb, Peal, Perfect, 3ms|אמר||
@@ -3287,7 +3287,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 3286|genesis 30.31|תִּתֶּן|Verb, Qal, Imperfect, 2ms|נָתַן|dabis|Verb, Future, Active, Indicative, 2s|do|δώσεις|Verb, Future, Active, Indicative, 2s|δίδωμι|תִּתֵּן|Verb, Peal, Imperfect, 2ms|יְהַב||
 3287|genesis 30.31|תַּעֲשֶׂה|Verb, Qal, Imperfect, 2ms|עָשָׂה|feceris|Verb, Future Perfect, Active, Indicative, 2s|facio|ποιήσῃς|Verb, Aorist, Active, Subjunctive, 2s|ποιέω|תַּעֲבֵיד|Verb, Peal, Imperfect, 2ms|עֲבַד||
 3288|genesis 30.31||||postulo|Verb, Present, Active, Indicative, 1s|postulo|||||||Note: Vulgate gloss not in other versions.|
-3289|genesis 30.31|אָשׁוּבָה|Verb, Qal, Imperfect, 1cs cohortative|שׁוּב|||||||||אֱתוּב|Verb, Peal, Imperfect, 1cs|תּוּב|Note: Rendered adverbially in Vulg/LXX.|
+3289|genesis 30.31|אָשׁוּבָה|Verb, Qal, Imperfect, 1cs cohortative|שׁוּב|||||||אֱתוּב|Verb, Peal, Imperfect, 1cs|תּוּב|Note: Rendered adverbially in Vulg/LXX.|
 3290|genesis 30.31|אֶרְעֶה|Verb, Qal, Imperfect, 1cs|רָעָה|pascam|Verb, Future, Active, Indicative, 1s|pasco|ποιμανῶ|Verb, Future, Active, Indicative, 1s|ποιμαίνω|אֶרְעֵי|Verb, Peal, Imperfect, 1cs|רְעֵי||
 3291|genesis 30.31|אֶשְׁמֹר|Verb, Qal, Imperfect, 1cs|שָׁמַר|custodiam|Verb, Future, Active, Indicative, 1s|custodio|φυλάξω|Verb, Future, Active, Indicative, 1s|φυλάσσω|אֲנַטַר|Verb, Peal, Imperfect, 1cs|נְטַר||
 3292|genesis 30.32|אֶעֱבֹר|Qal Imperfect 1cs|עָבַר|παρελθέτω|Aorist Active Imperative 3s|παρέρχομαι|Gira|Present Active Imperative 2s|giro|אֶעְבַּר|Peal Imperfect 1cs|עֲבַר|Person/mood shifts across versions.
@@ -4238,10 +4238,10 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 4237|genesis 37.25|נֹֽשְׂאִ֗ים|Verb, Qal, Participle, Act, mp|נָשָׂא|portare|Verb, Inf, Prs, Act|porto|ἔγεμον|Verb, Ind, Impf, Act, 3p|γέμω|טְעִינִין|Verb, Peal, Participle, Pass, mp|טְעַן|
 4238|genesis 37.25|הוֹלְכִ֖ים|Verb, Qal, Participle, Act, mp|הָלַךְ||||ἤγον|Verb, Ind, Impf, Act, 3p|ἄγω|אָזְלִין|Verb, Peal, Participle, Act, mp|אֲזַל|
 4239|genesis 37.25|לְהוֹרִ֥יד|Verb, Hiphil, Inf Const|יָרַד||||κατάγειν|Verb, Inf, Prs, Act|κατάγω|לְאַחָתָא|Verb, Aphel, Inf|נְחַת|
-4240|genesis 37.26|וַיֹּ֤אמֶר|verb|qal|wayyiqtol|3ms|אמר|dixit|verb|perfect|active|indicative|3s|dico|εἶπεν|verb|aorist|active|indicative|3s|λέγω|וַאֲמַר|verb|peal|perfect|3ms|אמר||
-4241|genesis 37.26|||||prodest|verb|present|active|indicative|3s|prosum|||||נִתְהֲנֵי|verb|ithpeel|imperfect|1cp|הני||
-4242|genesis 37.26|נַהֲרֹג|verb|qal|imperfect|1cp|הרג|occiderimus|verb|perfect|active|subjunctive|1p|occido|ἀποκτείνωμεν|verb|aorist|active|subjunctive|1p|ἀποκτείνω|נִקְטוֹל|verb|peal|imperfect|1cp|קטל||
-4243|genesis 37.26|וְכִסִּינוּ|verb|piel|perfect|1cp|כסה|celaverimus|verb|perfect|active|subjunctive|1p|celo|κρύψωμεν|verb|aorist|active|subjunctive|1p|κρύπτω|וְנִכְסֵי|verb|pael|imperfect|1cp|כסי||
+4240|genesis 37.26|וַיֹּ֤אמֶר|verb qal wayyiqtol 3ms|אמר|dixit|verb perfect active indicative 3s|dico|εἶπεν|verb aorist active indicative 3s|λέγω|וַאֲמַר|verb peal perfect 3ms|אמר||
+4241|genesis 37.26||||prodest|verb present active indicative 3s|prosum||||נִתְהֲנֵי|verb ithpeel imperfect 1cp|הני||
+4242|genesis 37.26|נַהֲרֹג|verb qal imperfect 1cpהרג|occiderimus|verb perfect active subjunctive 1p|occido|ἀποκτείνωμεν|verb aorist active subjunctive 1p|ἀποκτείνω|נִקְטוֹל|verb peal imperfect 1cp|קטל||
+4243|genesis 37.26|וְכִסִּינוּ|verb piel perfect 1cp|כסה|celaverimus|verb perfect active subjunctive 1p|celo|κρύψωμεν|verb aorist active subjunctive 1p|κρύπτω|וְנִכְסֵי|verb pael imperfect 1cp|כסי||
 4244|genesis 37.27|לְכוּ|Imperative, Qal, Masculine Plural|הלך|venite|Imperative, Present Active, 2nd Plural|venio|δεῦτε|Adverb (functioning as Imperative, 2nd Plural)|δεῦτε|אֱתוֹ|Imperative, Peal, Masculine Plural|אתא||
 4245|genesis 37.27|וְנִמְכְּרֶנּוּ|Cohortative (Imperfect), Qal, 1st Common Plural + 3ms suffix|מכר|vendamus|Hortatory Subjunctive, Present Active, 1st Plural|vendo|ἀποδώμεθα|Subjunctive, Aorist Middle, 1st Plural|ἀποδίδωμι|וְנִזַבְּנִנֵיהּ|Imperfect, Peal, 1st Common Plural + 3ms suffix|זבן||
 4246|genesis 37.27|אַל־תְּהִי|Jussive (Imperfect), Qal, 3rd Feminine Singular|היה|polluantur|Subjunctive, Present Passive, 3rd Plural|polluo|μὴ ἔστωσαν|Imperative, Present Active, 3rd Plural + negative|εἰμί|לָא תְהֵי|Imperfect, Peal, 3rd Feminine Singular + negative|הוא|Vulg. translates idiomatically as "not be defiled" vs. literal "not be".|
@@ -4588,7 +4588,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 4587|genesis 40.6|וַיַּרְא|Verb, Qal, Wayyiqtol, 3rd Masc Sing|ראה|vidisset|Verb, Subjunctive, Pluperfect, Active, 3rd Sing|video|εἶδεν|Verb, Aorist, Indicative, Active, 3rd Sing|ὁράω|וַחֲזָא|Verb, Peal, Perfect, 3rd Masc Sing|חזא||
 4588|genesis 40.6|זֹעֲפִים|Participle, Qal, Active, Masc Plur|זעף||||ἦσαν|Verb, Imperfect, Indicative, Active, 3rd Plur|εἰμί|סְבִירִין|Participle, Peil (Passive), Masc Plur|סבר||
 4589|genesis 40.7|וַיִּשְׁאַל|Verb, Qal, Wayyiqtol, 3ms|שָׁאַל|interrogavit|Verb, Indicative, Perfect, Active, 3s|interrogō|ἠρώτησεν|Verb, Aorist, Active, Indicative, 3s|ἐρωτάω|וּשְׁאֵיל|Verb, Peal, Perfect, 3ms|שְׁאֵל||
-4590|genesis 40.7|||||erant|Verb, Indicative, Imperfect, Active, 3p|sum|ἦσαν|Verb, Imperfect, Active, Indicative, 3p|εἰμί|||||Hebrew and Aramaic use a verbless relative clause.|
+4590|genesis 40.7|||||erant|Verb, Indicative, Imperfect, Active, 3p|sum|ἦσαν|Verb, Imperfect, Active, Indicative, 3p|εἰμί||||Hebrew and Aramaic use a verbless relative clause.|
 4591|genesis 40.7|לֵאמֹר|Verb, Qal, Infinitive Construct|אָמַר|dicens|Verb, Participle, Present, Active, Nsm|dīcō|λέγων|Verb, Participle, Present, Active, Nsm|λέγω|לְמֵימָר|Verb, Peal, Infinitive|אֲמַר||
 4592|genesis 40.7|||||sunt|Verb, Indicative, Present, Active, 3p|sum|||||||Hebrew, Greek, and Aramaic use a verbless predicate clause.|
 4593|genesis 40.8|וַיֹּאמְר֣וּ|Qal Waw-consecutive imperfect, 3rd person, masculine, plural|אָמַר|responderunt|Perfect active indicative, 3rd person, plural|respondeo|εἶπαν|Aorist active indicative, 3rd person, plural|λέγω|וַאֲמַרוּ|Peal perfect, 3rd person, masculine, plural|אֲמַר|
@@ -5020,7 +5020,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 5019|genesis 42.34|וְהָבִיא֞וּ|Conjunctive Waw + Hifil Imperative Masculine Plural|בּוֹא|adducite|Imperative Active 2nd Person Plural|adduco|ἀγάγετέ|Aorist Active Imperative 2nd Person Plural|ἄγω|וְיָתוּן|Conjunctive Waw + Afel Imperative Masculine Plural|אֲתָא||
 5020|genesis 42.34|וְאֵֽדְעָה֙|Conjunctive Waw + Qal Cohortative 1st Person Singular|יָדַע|sciam|Future Active Indicative 1st Person Singular|scio|γνώσομαι|Future Middle Indicative 1st Person Singular|γιγνώσκω|וְאִדַּע|Conjunctive Waw + Peal Imperfect 1st Person Singular|יְדַע||
 5021|genesis 42.34|מְרַגְּלִ֤ים|Piel Participle Masculine Plural|רָגַל|sitis|Present Active Subjunctive 2nd Person Plural|sum|ἐστὲ|Present Active Indicative 2nd Person Plural|εἰμί|מְאַלְלִין|Pael Participle Masculine Plural|אַלֵּל||
-5022|genesis 42.34|(implied copula)|||הָיָה||||ἐστε|Present Active Indicative 2nd Person Plural|εἰμί|(implied copula)|||הֲוָא||
+5022|genesis 42.34|||||||ἐστε|Present Active Indicative 2nd Person Plural|εἰμί|||
 5023|genesis 42.34|אֶתֵּ֣ן|Qal Imperfect 1st Person Singular|נָתַן|recipere|Present Active Infinitive|recipio|ἀποδώσω|Future Active Indicative 1st Person Singular|ἀποδίδωμι|אֶתֵּן|Peal Imperfect 1st Person Singular|יְהַב||
 5024|genesis 42.34|תִּסְחָרֽוּ|Qal Imperfect 2nd Person Masculine Plural|סָחַר||||ἐμπορεύεσθε|Present Middle Imperative 2nd Person Plural|ἐμπορεύομαι|תְּהוֹן תָּגְרִין|Periphrastic Imperfect: Imperfect + Participle|הֲוָא + תְּגַר||
 5025|genesis 42.34|||||ligatus est|Perfect Passive Indicative 3rd Person Singular|ligo||||||||
@@ -6596,11 +6596,11 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 6595|exodus 5.10|לֵאמֹר|Qal Inf Cstr|אמר|||λέγοντες|Pres Act Part Nom m pl|λέγω|לְמֵימַר|Peal Inf|אמר|
 6596|exodus 5.10|אָמַר|Qal Perf 3ms|אמר|dicit|Pres Act Ind 3s|dico|λέγει|Pres Act Ind 3s|λέγω|אֲמַר|Peal Perf 3ms|אמר|
 6597|exodus 5.10|נֹתֵן|Qal Act Part ms|נתן|do|Pres Act Ind 1s|do|δίδωμι|Pres Act Ind 1s|δίδωμι|יָהֵב|Peal Act Part ms|יהב|
-6598|exodus 5.11|לְכ֣וּ|Verb|Qal|Imperative|2MP|הָלַךְ|ite|Verb|Imperative|Present|Active|2PL|eō|πορευθέντες|Verb|Participle|Aorist|Passive_Deponent|NMP|πορεύομαι|אִזִילוּ|Verb|Peal|Imperative|2MP|אֲזַל|
-6599|exodus 5.11|קְח֤וּ|Verb|Qal|Imperative|2MP|לָקַח|colligite|Verb|Imperative|Present|Active|2PL|colligō|συλλέγετε|Verb|Imperative|Present|Active|2PL|συλλέγω|סִיבוּ|Verb|Peal|Imperative|2MP|נְסַב|
-6600|exodus 5.11|תִּמְצָ֑אוּ|Verb|Qal|Imperfect|2MP|מָצָא|invenire|Verb|Infinitive|Present|Active|inveniō|εὕρητε|Verb|Subjunctive|Aorist|Active|2PL|εὑρίσκω|תַשְׁכְּחוּן|Verb|Peal|Imperfect|2MP|אַשְׁכַּח|
-6601|exodus 5.11|||||potueritis|Verb|Indicative|Future_Perfect|Active|2PL|possum||||||||Auxiliary verb modifying 'invenire'.
-6602|exodus 5.11|נִגְרָ֛ע|Verb|Niphal|Participle|MS|גָּרַע|minuetur|Verb|Indicative|Future|Passive|3SG|minuō|ἀπολύεται|Verb|Indicative|Present|Middle_Passive|3SG|ἀπολύω|מִתְמְנַע|Verb|Itpeel|Participle|MS|מְנַע|
+6598|exodus 5.11|לְכ֣וּ|Verb Qal Imperative 2MP|הָלַךְ|ite|Verb Imperative Present Active 2PL|eō|πορευθέντες|Verb Participle Aorist Passive_Deponent NMP|πορεύομαι|אִזִילוּ|Verb Peal Imperative 2MP|אֲזַל|
+6599|exodus 5.11|קְח֤וּ|Verb Qal Imperative 2MP|לָקַח|colligite|Verb Imperative Present Active 2PL|colligō|συλλέγετε|Verb Imperative Present Active 2PL|συλλέγω|סִיבוּ|Verb Peal Imperative 2MP|נְסַב|
+6600|exodus 5.11|תִּמְצָ֑אוּ|Verb Qal Imperfect 2MP|מָצָא|invenire|Verb Infinitive Present Active|inveniō|εὕρητε|Verb Subjunctive Aorist Active 2PL|εὑρίσκω|תַשְׁכְּחוּן|Verb Peal Imperfect 2MP|אַשְׁכַּח|
+6601|exodus 5.11|||||potueritis|Verb Indicative Future_Perfect Active 2PL|possum||||||||Auxiliary verb modifying 'invenire'.
+6602|exodus 5.11|נִגְרָ֛ע|Verb Niphal Participle MS|גָּרַע|minuetur|Verb Indicative Future Passive 3SG|minuō|ἀπολύεται|Verb Indicative Present Middle_Passive 3SG|ἀπολύω|מִתְמְנַע|Verb Itpeel Participle MS|מְנַע|
 6603|exodus 5.12|וַיָּ֥פֶץ|Verb, Waw-Consecutive + Qal Imperfect, 3rd Person Masculine Singular|פוּץ|διεσπάρη|Verb, Aorist Passive Indicative, 3rd Person Singular|διασπείρω|Dispersus est|Verb, Perfect Passive Indicative, 3rd Person Singular|dispergo|וְאִתְבַּדַּר|Verb, Waw-Conjunctive + Itpeel Perfect, 3rd Person Masculine Singular|בדר||
 6604|exodus 5.12|לְקֹשֵׁשׁ|Verb, Lamed-prefixed + Polel Infinitive Construct|קשׁשׁ|συναγαγεῖν|Verb, Aorist Active Infinitive|συνάγω|colligendas|Verb, Gerundive (Accusative Feminine Plural)|colligo|לְמִכְנַשׁ|Verb, Lamed-prefixed + Peal Infinitive|כנשׁ||
 6605|exodus 5.13|אָצִים|Qal Active Participle, Masculine Plural|אוּץ|urgebant|Imperfect Active Indicative, 3rd Person Plural|urgeō|κατέσπευδον|Imperfect Active Indicative, 3rd Person Plural|κατασπεύδω|דַחֲקִין|Peal Active Participle, Masculine Plural|דְחַק||
@@ -7898,10 +7898,10 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 7897|exodus 16.21||||poterat|imperfect active indicative 3s|possum|||||||||
 7898|exodus 16.21|וְחַם֙|Qal perfect 3ms|חמם|incaluisset|pluperfect active subjunctive 3s|incalesco|διεθέρμαινεν|imperfect active indicative 3s|διαθερμαίνω|שָׁרְבָא|Peal perfect 3fs|שרב||
 7899|exodus 16.21|וְנָמָֽס|Qal perfect 3ms|מסס|liquefiebat|imperfect active indicative 3s|liquefio|ἐτήκετο|imperfect middle/passive indicative 3s|τήκω|פָּשַׁר|Peal perfect 3ms|פשר||
-7900|exodus 16.22|וַיְהִ֗י|verb|qal|wayyiqtol|3ms|היה|venisset|verb|pluperfect|active|subjunctive|3s|venio|ἐγένετο|verb|aorist|middle|indicative|3s|γίνομαι|וַהֲוָה|verb|peal|perfect|3ms|הוה|
-7901|exodus 16.22|לָֽקְט֥וּ|verb|qal|perfect|3cp|לקט|collegerunt|verb|perfect|active|indicative|3p|colligo|συνέλεξαν|verb|aorist|active|indicative|3p|συλλέγω|לְקַטוּ|verb|peal|perfect|3cp|לקט|
-7902|exodus 16.22|וַיָּבֹ֙אוּ֙|verb|qal|wayyiqtol|3cp|בוא|Venerunt|verb|perfect|active|indicative|3p|venio|εἰσῆλθον|verb|aorist|active|indicative|3p|εἰσέρχομαι|וַאֲתוֹ|verb|peal|perfect|3cp|אתא|
-7903|exodus 16.22|וַיַּגִּ֖ידוּ|verb|hiphil|wayyiqtol|3cp|נגד|nuntiaverunt|verb|perfect|active|indicative|3p|nuntio|ἀνήγγειλαν|verb|aorist|active|indicative|3p|ἀναγγέλλω|וְחַוִּיאוּ|verb|pael|perfect|3cp|חוי|
+7900|exodus 16.22|וַיְהִ֗י|verb qal wayyiqtol 3ms|היה|venisset|verb pluperfect active subjunctive 3s|venio|ἐγένετο|verb aorist middle indicative 3s|γίνομαι|וַהֲוָה|verb peal perfect 3ms|הוה|
+7901|exodus 16.22|לָֽקְט֥וּ|verb qal perfect 3cp|לקט|collegerunt|verb perfect active indicative 3p|colligo|συνέλεξαν|verb aorist active indicative 3p|συλλέγω|לְקַטוּ|verb peal perfect 3cp|לקט|
+7902|exodus 16.22|וַיָּבֹ֙אוּ֙|verb qal wayyiqtol 3cp|בוא|Venerunt|verb perfect active indicative 3p|venio|εἰσῆλθον|verb aorist active indicative 3p|εἰσέρχομαι|וַאֲתוֹ|verb peal perfect 3cp|אתא|
+7903|exodus 16.22|וַיַּגִּ֖ידוּ|verb hiphil wayyiqtol 3cp|נגד|nuntiaverunt|verb perfect active indicative 3p|nuntio|ἀνήγγειλαν|verb aorist active indicative 3p|ἀναγγέλλω|וְחַוִּיאוּ|verb pael perfect 3cp|חוי|
 7904|exodus 16.23|וַיֹּאמֶר|Verb, Qal, Waw-consecutive Imperfect, 3ms|אמר|dixit|Verb, Perfect, Active, Indicative, 3s|dico|εἶπεν|Verb, Aorist, Active, Indicative, 3s|λέγω|וַאֲמַר|Verb, Peal, Perfect, 3ms|אמר|
 7905|exodus 16.23|דִּבֶּר|Verb, Piel, Perfect, 3ms|דבר|locutus est|Verb, Perfect, Deponent, Indicative, 3s|loquor|ἐλάλησεν|Verb, Aorist, Active, Indicative, 3s|λαλέω|מַלֵיל|Verb, Pael, Perfect, 3ms|מלל|
 7906|exodus 16.23|תֹּאפוּ|Verb, Qal, Imperfect, 2mp|אפה|operandum est|Verb, Passive Periphrastic (Gerundive + sum)|operor|πέψητε|Verb, Aorist, Active, Subjunctive, 2p|πέσσω|עֲתִידִין לְמֵיפָא|Periphrastic: Participle (Peal act mp) + Infinitive (Peal)|עתד, אפי|Targum uses a periphrastic future/modal construction.
@@ -9163,8 +9163,8 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 9162|exodus 29.2|בְּלוּלֹת|Participle, Qal Passive, Feminine Plural|בלל|conspersa sint|Verb, Perfect Passive Subjunctive, 3rd Person Plural|conspergo|πεφυραμένους|Participle, Perfect Passive, Accusative Masculine Plural|φυράω|דְּפִילָן|Participle, Pe'il (Passive), Feminine Plural (with relative d-)|פול||
 9163|exodus 29.2|מְשֻׁחִים|Participle, Qal Passive, Masculine Plural|משׁח|lita|Participle, Perfect Passive, Accusative Neuter Plural|lino|διακεχρισμένα|Participle, Perfect Passive, Accusative Neuter Plural|διαχρίω|דִּמְשִׁיחִין|Participle, Pe'il (Passive), Masculine Plural (with relative d-)|משׁח||
 9164|exodus 29.2|תַּעֲשֶׂה|Verb, Qal Imperfect, 2nd Person Masculine Singular|עשׂה|facies|Verb, Future Active Indicative, 2nd Person Singular|facio|ποιήσεις|Verb, Future Active Indicative, 2nd Person Singular|ποιέω|תַּעְבֵּד|Verb, Pe'al Imperfect, 2nd Person Masculine Singular|עבד||
-9165|exodus 29.3|wənāṯattā|conj-waw | Qal perfect 2ms|nāṯan|pones|future active indicative 2s|pono|thēseis|future active indicative 2s|tithēmi|wəṯašwē|conj-waw | Pael imperfect 2ms|šwy||
-9166|exodus 29.3|wəhiqrəḇtā|conj-waw | Hifil perfect 2ms|qārab|offeres|future active indicative 2s|offero|prosoiseis|future active indicative 2s|prospherō|uṯəqārēḇ|conj-waw | Pael imperfect 2ms|qrb||
+9165|exodus 29.3|wənāṯattā|conj-waw Qal perfect 2ms|nāṯan|pones|future active indicative 2s|pono|thēseis|future active indicative 2s|tithēmi|wəṯašwē|conj-waw Pael imperfect 2ms|šwy|
+9166|exodus 29.3|wəhiqrəḇtā|conj-waw  Hifil perfect 2ms|qārab|offeres|future active indicative 2s|offero|prosoiseis|future active indicative 2s|prospherō|uṯəqārēḇ|conj-waw Pael imperfect 2ms|qrb|
 9167|exodus 29.4|תַּקְרִ֔יב|Hiphil Imperfect 2ms|קָרַב|applicabis|Future Active Indicative 2s|applico|προσάξεις|Future Active Indicative 2s|προσάγω|תְּקָרֵיב|Pa'el Imperfect 2ms|קְרַב||
 9168|exodus 29.4|וְרָחַצְתָּ֥|Qal Perfect 2ms (vav-consecutive)|רָחַץ|laveris|Future Perfect Active Indicative 2s|lavo|λούσεις|Future Active Indicative 2s|λούω|וְתַסְחֵי|Aph'el Imperfect 2ms|סְחָא||
 9169|exodus 29.5|וְלָקַחְתָּ|Verb, Waw-consecutive + Perfect, Qal, 2ms|לקח|adsumes|Verb, Future, Active, Indicative, 2s|adsumo|λήμψῃ|Verb, Future, Middle, Indicative, 2s|λαμβάνω|וְתִסַּב|Verb, Waw-consecutive + Imperfect, Peal, 2ms|נסב||
@@ -13406,7 +13406,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 13405|leviticus 26.34|הֳשַׁמָּה|Hophal infinitive construct|שׁמם|||||||צְדִיָא|Peal passive participle fs abs|צדי||
 13406|leviticus 26.34|||||fueritis|future perfect active indicative 2pl|sum|ἔσεσθε|future middle indicative 2pl|εἰμί|||||
 13407|leviticus 26.34|תִּשְׁבַּת|Qal imperfect 3fs|שׁבת|sabbatizabit|future active indicative 3s|sabbatizo|σαββατιεῖ|future active indicative 3s|σαββατίζω|תִּשְׁמַט|Peal imperfect 3fs|שׁמט||
-13408|leviticus 26.34|||||requiescet|future active indicative 3s|requiesco|||||||||
+13408|leviticus 26.34|||||requiescet|future active indicative 3s|requiesco||||||||
 13409|leviticus 26.34|וְהִרְצָת|Hiphil perfect 3fs + waw|רצה|||||εὐδοκήσει|future active indicative 3s|εὐδοκέω|וְתִתְרְעֵי|Yithpeel imperfect 3fs + waw|רעי||
 13410|leviticus 26.35|תִּשְׁבֹּת|Qal Imperfect 3fs|שׁבת|sabbatizabit|Future Active Indicative 3s|sabbatizo|σαββατιεῖ|Future Active Indicative 3s|σαββατίζω|תְּנוּחַ|Peal Imperfect 3fs|נוח||
 13411|leviticus 26.35|שָׁבְתָה|Qal Perfect 3fs|שׁבת|sabbatizavit|Perfect Active Indicative 3s|sabbatizo|ἐσαββάτισεν|Aorist Active Indicative 3s|σαββατίζω|נָחַת|Peal Perfect 3fs|נוח||
