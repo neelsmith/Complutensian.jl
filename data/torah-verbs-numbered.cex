@@ -6666,7 +6666,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 6665|exodus 6.2|וַיֹּאמֶר|Verb, Qal, Wayyiqtol, 3ms|אמר|ait|Verb, Perfect, Active, Indicative, 3s|aio|εἶπεν|Verb, Aorist, Active, Indicative, 3s|λέγω|וַאֲמַר|Verb, Peal, Perfect, 3ms|אמר||
 6666|exodus 6.2|||||||εἰμι|Verb, Present, Active, Indicative, 1s|εἰμί||||Verb 'to be' is elided in Hebrew, Latin, and Aramaic nominal clauses, but explicit in Greek.|
 6667|exodus 6.3|וָאֵרָא|Qal Consecutive Imperfect 1cs|רָאָה|apparui|Perfect Active Indicative 1s|appareo|ὤφθην|Aorist Passive Indicative 1s|ὁράω|וְאִתְגְּלֵיתִי|Ithpeel Perfect 1cs|גְלָא|
-6668|exodus 6.3|||||ὢν|Present Active Participle Nom Masc Sing|εἰμί||||
+6668|exodus 6.3|||||||ὢν|Present Active Participle Nom Masc Sing|εἰμί||||
 6669|exodus 6.3|נוֹדַעְתִּי|Niphal Perfect 1cs|יָדַע|indicavi|Perfect Active Indicative 1s|indico|ἐδήλωσα|Aorist Active Indicative 1s|δηλόω|הוֹדַעִית|Haphel Perfect 1cs|יְדַע|
 6670|exodus 6.4|הֲקִמֹתִי|verb:hiphil:perfect:1cs|קוּם|pepigi|verb:perfect:active:indicative:1s|pango|ἔστησα|verb:aorist:active:indicative:1s|ἵστημι|אֲקֵימִית|verb:aphel:perfect:1cs|קוּם||
 6671|exodus 6.4|לָתֵת|verb:qal:infinitive construct|נָתַן|darem|verb:imperfect:active:subjunctive:1s|do|δοῦναι|verb:aorist:active:infinitive|δίδωμι|לְמִתַּן|verb:peal:infinitive|יְתַן||
@@ -7035,7 +7035,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 7034|exodus 9.18|מַמְטִיר|Participle, Hiphil, Masculine, Singular|מטר|pluam|Verb, Indicative, Future, Active, 1s|pluo|ὕω|Verb, Indicative, Present, Active, 1s|ὕω|מָחֵית|Participle, Aphel, Masculine, Singular|נחת|
 7035|exodus 9.18|הָיָה|Verb, Qal, Perfect, 3ms|היה|fuit|Verb, Indicative, Perfect, Active, 3s|sum|γέγονεν|Verb, Indicative, Perfect, Active, 3s|γίγνομαι|הֲוָה|Verb, Peal, Perfect, 3ms|הוה|
 7036|exodus 9.18|הִוָּסְדָהּ|Verb, Niphal, Infinitive Construct + 3fs suffix|יסד|condita est|Verb, Indicative, Perfect, Passive, 3s|condo|ἔκτισται|Verb, Indicative, Perfect, Passive, 3s|κτίζω|דְּאִתְיַסְדַת|Verb, Itpeel, Perfect, 3fs (with relative דְּ)|יסד|
-7037|exodus 9.18|||||||דְּאָתְיָא|Participle, Peal, Feminine, Singular (with relative דְּ)|אתי|Renders the Hebrew temporal phrase כָּעֵת (at this time).
+7037|exodus 9.18||||||||||דְּאָתְיָא|Participle, Peal, Feminine, Singular (with relative דְּ)|אתי|Renders the Hebrew temporal phrase כָּעֵת (at this time).
 7038|exodus 9.19|שְׁלַח|Qal Imperative Masculine Singular|שׁלח|Inmitte|Imperative Present Active 2nd Person Singular|inmitto|ἀπόστειλον|Aorist Imperative Active 2nd Person Singular|ἀποστέλλω|שְׁלַח|Peal Imperative Masculine Singular|שׁלח||
 7039|exodus 9.19|הָעֵז|Hifil Imperative Masculine Singular|עוז|congrega|Imperative Present Active 2nd Person Singular|congrego|σύναγαγε|Aorist Imperative Active 2nd Person Singular|συνάγω|כְּנוֹשׁ|Peal Imperative Masculine Singular|כנס||
 7040|exodus 9.19||||habes|Indicative Present Active 2nd Person Singular|habeo|ἐστιν|Indicative Present Active 3rd Person Singular|εἰμί||||Note: MT and TO use non-verbal possessive phrases.|
@@ -7090,7 +7090,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 7089|exodus 9.32||||erant|Impf Act Ind 3pl|sum|ἦν|Impf Act Ind 3s|εἰμί|הֲוָאָה|Peal Perf 3fp|הוה||
 7090|exodus 9.33|וַיֵּצֵא|Waw-consecutive Qal Imperfect 3ms|יצא|Egressusque|Perfect Participle Nominative Masculine Singular|egredior|ἐξῆλθεν|Aorist Indicative Active 3s|ἐξέρχομαι|וּנְפַק|Waw-conjunctive Peal Perfect 3ms|נפק|
 7091|exodus 9.33|וַיִּפְרֹשׂ|Waw-consecutive Qal Imperfect 3ms|פרשׂ|tetendit|Perfect Indicative Active 3s|tendo|ἐξέτεινεν|Aorist Indicative Active 3s|ἐκτείνω|וּפְרַס|Waw-conjunctive Peal Perfect 3ms|פרס|
-7092|exodus 9.33|||||||לִצְלוֹיֵי|Lamed-prefix Pael Infinitive|צלי|
+7092|exodus 9.33||||||||||לִצְלוֹיֵי|Lamed-prefix Pael Infinitive|צלי|
 7093|exodus 9.33|וַיַּחְדְּלוּ|Waw-consecutive Qal Imperfect 3cp|חדל|cessaverunt|Perfect Indicative Active 3p|cesso|ἐπαύσαντο|Aorist Indicative Middle 3p|παύω|וּפְסַקוּ|Waw-conjunctive Peal Perfect 3cp|פסק|
 7094|exodus 9.33|נִתַּךְ|Nifal Perfect 3ms|נתך|effundebatur|Imperfect Indicative Passive 3s|effundo|ἐστάλαξεν|Aorist Indicative Active 3s|σταλάζω|נְחַת|Peal Perfect 3ms|נחת|
 7095|exodus 9.34|וַיַּ֤רְא|Verb: Waw-Consecutive Imperfect, 3rd Masc Sg, Qal|רָאָה|Videns|Participle: Present Active, Nom Masc Sg|video|ἰδὼν|Participle: Aorist Active, Nom Masc Sg|ὁράω|וַחֲזָא|Verb: Waw-Consecutive Perfect, 3rd Masc Sg, Peal|חֲזָא|
@@ -7125,7 +7125,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 7124|exodus 10.5|לִרְאֹת|Verb: Qal Infinitive Construct + Lamed prefix|ראה|ἰδεῖν|Verb: Aorist Active Infinitive|ὁράω|videri|Verb: Present Passive Infinitive|video|לְמִחְזֵי|Verb: Lamed-prefix + Pe'al Infinitive|חזי|Latin is passive: 'to be seen'.
 7125|exodus 10.5|וְאָכַל|Verb: Waw-consecutive + Qal Perfect 3ms|אכל|κατέδεται|Verb: Future Middle Indicative 3s|κατεσθίω|comedetur|Verb: Future Passive Indicative 3s|comedo|וְיֵיכוּל|Verb: Waw-prefix + Pe'al Imperfect 3ms|אכל|Latin is passive: 'it will be eaten'.
 7126|exodus 10.5|הַנִּשְׁאֶרֶת|Participle: Niphal Feminine Singular + Definite Article|שׁאר|ὑπολειφθεῖσαν|Participle: Aorist Passive, Accusative Feminine Singular|ὑπολείπω|fuerit|Verb: Future Perfect Active Indicative 3s|sum|אִשְׁתְּאַר|Verb: Ethpe'el Perfect 3ms|שׁאר|Latin and Aramaic use a finite verb in a relative clause.
-7127|exodus 10.5||||καταλειφθεῖσαν|Participle: Aorist Passive, Accusative Feminine Singular|καταλείπω|||||LXX doublet, translating the same Hebrew concept.
+7127|exodus 10.5|||||||καταλειφθεῖσαν|Participle: Aorist Passive, Accusative Feminine Singular|καταλείπω||||LXX doublet, translating the same Hebrew concept.
 7128|exodus 10.5|וְאָכַל|Verb: Waw-consecutive + Qal Perfect 3ms|אכל|κατέδεται|Verb: Future Middle Indicative 3s|κατεσθίω|vorabit|Verb: Future Active Indicative 3s|voro|וְיֵיכוּל|Verb: Waw-prefix + Pe'al Imperfect 3ms|אכל|
 7129|exodus 10.5|הַצֹּמֵחַ|Participle: Qal Masculine Singular + Definite Article|צמח|φυόμενον|Participle: Present Middle/Passive, Accusative Neuter Singular|φύω|germinant|Verb: Present Active Indicative 3pl|germino|מְרַבֵּי|Participle: Pa'el Masculine Singular|רבי|Latin uses a finite verb; Aramaic uses a participle in a relative clause.
 7130|exodus 10.6|וּמָלְא֨וּ|V-Qal-Perf-3cp-waw|מָלֵא|implebunt|V-Fut-Act-Ind-3pl|impleo|πλησθήσονται|V-Fut-Pass-Ind-3pl|πίμπλημι|וְיִתְמְלְיַן|V-Yithpeel-Impf-3fp|מְלָא|
@@ -7401,7 +7401,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 7400|exodus 12.32|וָלֵכוּ|Qal Imperative 2mp|הלך|abientes|Present Active Participle nom masc pl|abeo|πορεύεσθε|Present Middle Imperative 2pl|πορεύομαι|וְאִזִילוּ|Pe'al Imperative 2mp|אזל|
 7401|exodus 12.32|וּבֵרַכְתֶּם|Waw-consecutive + Pi'el Perfect 2mp|ברך|benedicite|Present Active Imperative 2pl|benedico|εὐλογήσατε|Aorist Active Imperative 2pl|εὐλογέω|וּבָרִיכוּ|Pa'el Imperative 2mp|ברך|
 7402|exodus 12.33|וַתֶּחֱזַ֤ק|Qal Wayyiqtol 3fs|חזק|Urgebantque|Imperfect Active Indicative 3pl|urgeō|κατεβιάζοντο|Imperfect Middle Indicative 3pl|καταβιάζομαι|וַאֲנַסוּ|Peal Perfect 3cp|אנס|
-7403|exodus 12.33|לְמַהֵ֖ר|Piel Infinitive Construct|מהר|||||לְאוֹחָאָה|Aphel Infinitive|אוחי|VUL/LXX use adverbial phrases.
+7403|exodus 12.33|לְמַהֵ֖ר|Piel Infinitive Construct|מהר|||||||לְאוֹחָאָה|Aphel Infinitive|אוחי|VUL/LXX use adverbial phrases.
 7404|exodus 12.33|לְשַׁלְּחָ֣ם|Piel Infinitive Construct + 3mp suffix|שׁלח|egrederetur|Imperfect Deponent Subjunctive 3s|egredior|ἐκβαλεῖν|Aorist Active Infinitive|ἐκβάλλω||||VUL voice/subject shifted; TO uses verbal noun.
 7405|exodus 12.33|אָמְר֖וּ|Qal Perfect 3cp|אמר|dicentes|Present Active Participle Nmpl|dīcō|ἔλεγον|Imperfect Active Indicative 3pl|λέγω|אָמְרִין|Peal Active Participle mpl|אמר|
 7406|exodus 12.33|מֵתִֽים|Qal Active Participle mpl|מות|moriemur|Future Deponent Indicative 1pl|morior|ἐσόμεθα|Future Middle Indicative 1pl|εἰμί|מָיְתִין|Peal Active Participle mpl|מות|LXX uses εἰμί ('to be') + predicate adjective.
@@ -7581,7 +7581,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 7580|exodus 14.6|לָקַ֥ח|Verb, Qal, Perfect, 3ms|לָקַח|adsumpsit|Verb, Perfect, Active, Indicative, 3s|adsumo|ἀνέλαβεν|Verb, Aorist, Active, Indicative, 3s|ἀναλαμβάνω|דַּבַּר|Verb, Peal, Perfect, 3ms|דְּבַר||
 7581|exodus 14.7|וַיִּקַּח|Verb, Qal, Waw-consecutive imperfect, 3ms|לָקַח|tulit|Verb, Perfect, Active, Indicative, 3s|fero|λαβὼν|Verb, Aorist, Active, Participle, nominative, masculine, singular|λαμβάνω|וּדְבַר|Verb, Peal, Perfect, 3ms|דְּבַר||
 7582|exodus 14.7||||fuit|Verb, Perfect, Active, Indicative, 3s|sum||||||||
-7583|exodus 14.7|||||||מְמַנַּן|Verb, Pael, Passive Participle, masculine, plural, absolute|מַנִּי||
+7583|exodus 14.7||||||||||מְמַנַּן|Verb, Pael, Passive Participle, masculine, plural, absolute|מַנִּי||
 7584|exodus 14.8|וַיְחַזֵּק|Verb, Piel, Wayyiqtol, 3rd Masc Sing|חזק|induravit|Verb, Perfect Active Indicative, 3rd Sing|induro|ἐσκλήρυνεν|Verb, Aorist Active Indicative, 3rd Sing|σκληρύνω|וְאַתְקֵיף|Verb, Aphel, Perfect, 3rd Masc Sing|תקף||
 7585|exodus 14.8|וַיִּרְדֹּף|Verb, Qal, Wayyiqtol, 3rd Masc Sing|רדף|persecutus est|Verb, Perfect Deponent Indicative, 3rd Sing|persequor|κατεδίωξεν|Verb, Aorist Active Indicative, 3rd Sing|καταδιώκω|וּרְדַף|Verb, Peal, Perfect, 3rd Masc Sing|רדף||
 7586|exodus 14.8|יֹצְאִים|Participle, Qal, Active, Masc Plur|יצא|egressi sunt|Verb, Perfect Deponent Indicative, 3rd Plur|egredior|ἐξεπορεύοντο|Verb, Imperfect Middle/Passive Indicative, 3rd Plur|ἐκπορεύομαι|נָפְקִין|Participle, Peal, Active, Masc Plur|נפק||
@@ -7800,10 +7800,10 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 7799|exodus 16.3|וַיֹּאמְר֨וּ|Qal Vayiqtol 3MP|אמר|dixerunt|Perfect Active Indicative 3P|dico|εἶπαν|Aorist Active Indicative 3P|λέγω|וַאֲמַרוּ|Peal Perfect 3MP|אמר|
 7800|exodus 16.3|יִתֵּן|Qal Yiqtol 3MS|נתן|||||||||Part of idiomatic wish formula 'mi-yitten'.
 7801|exodus 16.3|מוּתֵנוּ|Qal Infinitive Construct + 1CP suffix|מות|mortui essemus|Pluperfect Subjunctive 1P|morior|ἀπεθάνομεν|Aorist Active Indicative 1P|ἀποθνῄσκω|דְּמִיתְנָא|Peal Perfect 1CP|מות|
-7802|exodus 16.3|||||πληγέντες|Aorist Passive Participle Nom Pl Masc|πλήσσω||||LXX renders 'by the hand of the Lord' with a participle.
+7802|exodus 16.3|||||||πληγέντες|Aorist Passive Participle Nom Pl Masc|πλήσσω||||LXX renders 'by the hand of the Lord' with a participle.
 7803|exodus 16.3|בְּשִׁבְתֵּנוּ|Qal Infinitive Construct + prep. + 1CP suffix|ישׁב|sedebamus|Imperfect Active Indicative 1P|sedeo|ἐκαθήμεθα|Imperfect Middle Indicative 1P|κάθημαι|יָתְבִין|Peal Active Participle MP|יתב|Part of periphrastic construction 'hăwênā yāṯəḇīn'.
 7804|exodus 16.3|בְּאָכְלֵנוּ|Qal Infinitive Construct + prep. + 1CP suffix|אכל|comedebamus|Imperfect Active Indicative 1P|comedo|ἠσθίομεν|Imperfect Active Indicative 1P|ἐσθίω|אָכְלִין|Peal Active Participle MP|אכל|Part of periphrastic construction 'hăwênā 'āḵəlīn'.
-7805|exodus 16.3|לָשֹׂבַע|Qal Infinitive Construct + prep.|שׂבע|||||וְשָׂבְעִין|Peal Active Participle MP|שׂבע|MT infinitive and TO participle express 'being satisfied'.
+7805|exodus 16.3|לָשֹׂבַע|Qal Infinitive Construct + prep.|שׂבע|||||||וְשָׂבְעִין|Peal Active Participle MP|שׂבע|MT infinitive and TO participle express 'being satisfied'.
 7806|exodus 16.3|הוֹצֵאתֶם|Hiphil Perfect 2MP|יצא|eduxistis|Perfect Active Indicative 2P|educo|ἐξηγάγετε|Aorist Active Indicative 2P|ἐξάγω|אַפֶּקְתּוּן|Aphel Perfect 2MP|נפק|
 7807|exodus 16.3|לְהָמִית|Hiphil Infinitive Construct + prep.|מות|occideretis|Imperfect Active Subjunctive 2P|occido|ἀποκτεῖναι|Aorist Active Infinitive|ἀποκτείνω|לְקַטָּלָא|Pael Infinitive + prep.|קטל|
 7808|exodus 16.4|וַיֹּאמֶר|Verb, Qal, Wayyiqtol, 3ms|אמר|dixit|Verb, Perfect, Active, Indicative, 3s|dico|εἶπεν|Verb, Aorist, Active, Indicative, 3s|λέγω|וַאֲמַר|Verb, Peal, Perfect, 3ms|אמר| |
