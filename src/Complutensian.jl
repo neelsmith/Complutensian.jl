@@ -45,4 +45,10 @@ include("verbs.jl")
 include("scoring.jl")
 include("datacompiler.jl")
 
+
+module Verbs
+    include("llms/verbs.jl")
+end
+
+
 end # module Complutensian
