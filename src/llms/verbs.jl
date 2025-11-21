@@ -32,7 +32,7 @@ function readverbaligns(f)
 end
 
 
-function alignmentcounts(v1::Vector, vlist::Vector[Vector])
-    @info("Length of vlist is $(lengthvlist)")
+function alignmentcounts(v1, vlist)
+    @info("Length of vlist is $(length(vlist))")
 end
 
