@@ -3,5 +3,5 @@
 
 33 rows with too many columns were manually reformatted. Data were not changed.
 
-151 rows had too few columns.
+149 rows had too few columns.
 
