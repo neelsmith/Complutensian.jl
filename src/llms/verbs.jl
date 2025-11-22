@@ -132,3 +132,77 @@ end
 function aramaicforms(alignments)
     map(tpl -> (seq = tpl.sequence, passage = tpl.passage, lemma = tpl.alemma, token = tpl.atoken), alignments)
 end
+
+
+# Coarse approximation:
+function ingreekrange(s)
+    #=
+    conclusion = true
+    for cp in s
+        cpval = codepoint(cp)
+        #=@info("Cp is $(cp)")
+        @info("Type of cp: $(typeof(cp))")
+        @info("As codepoint $(cpval)")
+        @info(string(cpval, base=16))=#
+        if cpval < 0x391 || cpval > 0x1fa7
+            conclusion = false
+        end
+
+    end
+    conclusion
+    =#
+    tflist = map(collect(s)) do cp
+       cpval = codepoint(cp)
+       #=@info("Look at $(cp) $(cpval) $(string(cpval, base=16))")
+       @info("Greater than x391? $(cpval >= 0x391 )")
+       @info("Less than 0x1fa7? $(cpval >= 0x1fa7 )")
+=#
+  
+       decision = ((cpval >=  913) && (cpval <= 074)) ||
+       ((cpval >= 0x1F00) && (cpval <= 0x1ffc))
+       #@info("Decision $(decision)")
+       decision
+    end
+    #@info("TF list; $(tflist)")
+    false in tflist ? false : true
+end
+
+# written by claude
+function is_all_greek(s::String)::Bool
+    for c in s
+        cp = Int(c)
+        # Greek and Coptic: U+0370 to U+03FF
+        # Greek Extended: U+1F00 to U+1FFF
+        if !((0x0370 <= cp <= 0x03FF) || (0x1F00 <= cp <= 0x1FFF))
+            return false
+        end
+    end
+    return true
+end
+
+function is_all_hebrew(s::String)::Bool
+    for c in s
+        cp = Int(c)
+        # Hebrew: U+0590 to U+05FF
+        # Alphabetic Presentation Forms (Hebrew): U+FB1D to U+FB4F
+        if !((0x0590 <= cp <= 0x05FF) || (0xFB1D <= cp <= 0xFB4F))
+            return false
+        end
+    end
+    return true
+end
+
+
+function inhebrewrange(s)
+    conclusion = true
+    for cp in s
+        cpval = codepoint(cp)
+       
+        if cpval < 0x5C0 || cpval > 0x5f4
+            conclusion = false
+        end
+
+    end
+    conclusion
+end
+
