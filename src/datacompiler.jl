@@ -1,10 +1,11 @@
+#=
 """Get string values for lexical IDs of verbs in a passage.
 $(SIGNATURES)
 """
 function passagelexstrings(u::CtsUrn, v::Vector{AnalyzedToken})
 	retrieveparses(u, v) .|> at_lex .|> string |> unique
 end
-
+=#
 
 """Compile a table of verb occurrences by document for each passage of
 text.
