@@ -34,6 +34,9 @@ begin
 	md"""*Unhide this cell to see the Julia environment.*"""
 end
 
+# ╔═╡ 3c14d363-6a71-43cb-bbb7-8368c901ae11
+TableOfContents()
+
 # ╔═╡ f9628050-c791-11f0-9649-41c62b920373
 md"""# Aligning verbs in the Complutensian Bible"""
 
@@ -55,6 +58,9 @@ html"""
 <br/><br/><br/><br/><br/>
 <hr/>
 """
+
+# ╔═╡ 10f3876e-1df8-41ad-8611-79d88c21a5d7
+md"""> # Implementations"""
 
 # ╔═╡ 2c9ec35b-76e1-4422-abcd-ae33c078f8c7
 md"""> ## User selected comparisons"""
@@ -88,31 +94,6 @@ function vocabforlang(lang, alignmentdata)
 	
 end
 
-# ╔═╡ d16e7964-5d12-47c4-a789-b3fcd12a7be0
-"""Select quadruplets of lemmata including the given lexeme as the value for the given language."""
-function matchingquads(lang, lexeme, all_lemmata)
-	if lang == "Hebrew"
-		filter(all_lemmata) do tpl
-			tpl.hlemma == lexeme
-		end
-	elseif lang == "Greek"
-		filter(all_lemmata) do tpl
-			tpl.glemma == lexeme
-		end
-	elseif lang == "Latin"
-		filter(all_lemmata) do tpl
-			tpl.llemma == lexeme
-		end	
-	elseif lang == "Aramaic"
-		filter(all_lemmata) do tpl
-			tpl.alemma == lexeme
-		end			
-	else
-		[]
-	end
-	
-end
-
 # ╔═╡ 7575cbdd-a2bd-44e8-8fca-cbae1460d46a
 md"""> ## Load and count overall data"""
 
@@ -133,14 +114,34 @@ md"""Vocab  item: $(@bind vocabitem Select(vocab))"""
 if isempty(vocabitem)
 	md"""*Select a vocabulary item.*"""
 else
-	md"""So we're looking for $(vocabitem) in $(join(complist,", "))"""
+	md"""### Co-occurrences with $(vocabitem) in $(join(complist,", "))"""
 end
 
 # ╔═╡ 0798597a-2974-4dc1-ac35-2643785e0a05
 lemmata = map(tpl -> (hlemma = tpl.hlemma, llemma = tpl.llemma, glemma=tpl.glemma, alemma=tpl.alemma ), aligns)
 
+# ╔═╡ 0fc90af3-c3e4-4dc3-b0bf-69ccf3471bf9
+uservocabcounts = if baselang == "Hebrew"
+	Complutensian.Verbs.cfhebrewlemma(vocabitem, lemmata; includedlangs = complist)
+elseif baselang == "Latin"
+	Complutensian.Verbs.cflatinlemma(vocabitem, lemmata; includedlangs = complist)
+elseif baselang == "Greek"
+	Complutensian.Verbs.cfgreeklemma(vocabitem, lemmata; includedlangs = complist)
+elseif baselang == "Aramaic"
+	Complutensian.Verbs.cfaramaiclemma(vocabitem, lemmata; includedlangs = complist)	
+	
+end
+
 # ╔═╡ 59b9beac-bd2c-4c23-ab2d-b62d6e304ff6
-matchingquads(baselang, vocabitem, lemmata)
+choiceys = collect(values(uservocabcounts))
+
+# ╔═╡ 4ec435cc-fba0-4a24-aabf-10316b9ef4c1
+choicexs = collect(keys(uservocabcounts))
+
+# ╔═╡ ddcf2fd5-bd6a-49b8-a9e2-5f3583afa9e9
+plot(
+		bar(x = choicexs, y = choiceys)
+	)
 
 # ╔═╡ 71957bfa-46c8-423c-95f1-2fe697e21ccd
 quadcountsraw = countmap(lemmata) |> OrderedDict
@@ -161,6 +162,7 @@ plot(
 
 # ╔═╡ Cell order:
 # ╟─1bec9264-ec59-448d-835d-7d50459917fe
+# ╟─3c14d363-6a71-43cb-bbb7-8368c901ae11
 # ╟─f9628050-c791-11f0-9649-41c62b920373
 # ╟─2108e0e1-c2d1-4f89-83e9-7edfd3c0d6e2
 # ╟─cc7f5644-ffb8-497d-bb59-8f2ca17c7e1b
@@ -170,13 +172,16 @@ plot(
 # ╟─6ecdf1c0-4a27-4982-a90c-55261f7dbdeb
 # ╟─c052def0-6fd9-4cd8-bb24-219ea174a424
 # ╟─ac9e7549-a315-408d-bae5-cb862d445761
-# ╠═59b9beac-bd2c-4c23-ab2d-b62d6e304ff6
+# ╟─ddcf2fd5-bd6a-49b8-a9e2-5f3583afa9e9
 # ╟─fc40eef4-4760-446c-bd84-ad52a044b281
+# ╟─10f3876e-1df8-41ad-8611-79d88c21a5d7
 # ╟─2c9ec35b-76e1-4422-abcd-ae33c078f8c7
+# ╟─59b9beac-bd2c-4c23-ab2d-b62d6e304ff6
+# ╟─4ec435cc-fba0-4a24-aabf-10316b9ef4c1
+# ╟─0fc90af3-c3e4-4dc3-b0bf-69ccf3471bf9
 # ╟─6dbd2b37-7806-43e4-ae7e-ed7904971200
 # ╟─765d90b1-34d2-4fba-8876-38e41adfc0f1
 # ╟─f856159c-23f9-4428-84d0-8f54399adb8f
-# ╠═d16e7964-5d12-47c4-a789-b3fcd12a7be0
 # ╟─7575cbdd-a2bd-44e8-8fca-cbae1460d46a
 # ╟─39b00ae3-d9e1-4d8c-a28e-d8249a67dfed
 # ╟─50205821-17ce-482a-b5da-3cc370b6363f
