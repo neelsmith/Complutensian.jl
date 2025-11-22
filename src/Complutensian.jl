@@ -47,7 +47,10 @@ include("datacompiler.jl")
 
 
 module Verbs
+    using Downloads
+    using BiblicalHebrew
     include("llms/verbs.jl")
+
 end
 
 

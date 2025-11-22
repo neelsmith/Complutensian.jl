@@ -1,9 +1,10 @@
 name = "Complutensian"
 uuid = "5f95dd89-9e9b-4b65-87b4-21d0b342af7d"
-authors = ["Neel Smith  <dnsmith.neel@gmail.com>"]
 version = "0.1.0"
+authors = ["Neel Smith  <dnsmith.neel@gmail.com>"]
 
 [deps]
+BiblicalHebrew = "23d2231d-1fc1-47c2-a612-987552d9b38e"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
 CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
@@ -20,3 +21,7 @@ Orthography = "0b4c9448-09b0-4e78-95ea-3eb3328be36d"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Tabulae = "a03c184b-2b42-4641-ae65-f14a9f5424c6"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
+
+[compat]
+BiblicalHebrew = "0.4"
+OrderedCollections = "1"
