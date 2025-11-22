@@ -112,3 +112,23 @@ function cfaramaiclemma(lemma, alignments; includedlangs = [])
     matchingquads = filter(tpl -> tpl.alemma == lemma, alignments)
     alignmentcounts(matchingquads; includedlangs = includedlangs)
 end
+
+function hebrewforms(alignments)
+    map(tpl -> (seq = tpl.sequence, passage = tpl.passage, lemma = tpl.hlemma, token = tpl.htoken), alignments)
+end
+
+
+function latinforms(alignments)
+    map(tpl -> (seq = tpl.sequence, passage = tpl.passage, lemma = tpl.llemma, token = tpl.ltoken), alignments)
+end
+
+
+function greekforms(alignments)
+    map(tpl -> (seq = tpl.sequence, passage = tpl.passage, lemma = tpl.glemma, token = tpl.gtoken), alignments)
+end
+
+
+
+function aramaicforms(alignments)
+    map(tpl -> (seq = tpl.sequence, passage = tpl.passage, lemma = tpl.alemma, token = tpl.atoken), alignments)
+end
