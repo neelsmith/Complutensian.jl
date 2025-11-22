@@ -49,6 +49,8 @@ include("datacompiler.jl")
 module Verbs
     using Downloads
     using BiblicalHebrew
+    using StatsBase, OrderedCollections
+    using Unicode
     include("llms/verbs.jl")
 
 end
