@@ -206,3 +206,16 @@ function inhebrewrange(s)
     conclusion
 end
 
+
+function hebrewneedsfixin(f)
+    filter(hebrewforms(readverbaligns(f)) ) do tpl
+        ! is_all_hebrew(tpl.lemma) || ! is_all_hebrew(tpl.token)
+    end
+end
+
+
+function greekneedsfixin(f)
+    filter(greekforms(readverbaligns(f)) ) do tpl
+        ! is_all_greek(tpl.lemma) || ! is_all_greek(tpl.token)
+    end
+end
