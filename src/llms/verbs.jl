@@ -219,3 +219,14 @@ function greekneedsfixin(f)
         ! is_all_greek(tpl.lemma) || ! is_all_greek(tpl.token)
     end
 end
+
+function guesspos(s)
+    lc = lowercase(s)
+    if contains(lc, "infin")
+        "infinitive"
+    elseif contains(lc, "particip") || contains(lc, "ptcp")
+        "participle"
+    else
+        "finite form"
+    end
+end
