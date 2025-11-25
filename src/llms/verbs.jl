@@ -171,9 +171,12 @@ end
 function is_all_greek(s::String)::Bool
     for c in s
         cp = Int(c)
+        if cp == 32
+            return true
+
         # Greek and Coptic: U+0370 to U+03FF
         # Greek Extended: U+1F00 to U+1FFF
-        if !((0x0370 <= cp <= 0x03FF) || (0x1F00 <= cp <= 0x1FFF))
+        elseif !((0x0370 <= cp <= 0x03FF) || (0x1F00 <= cp <= 0x1FFF))
             return false
         end
     end
@@ -185,7 +188,9 @@ function is_all_hebrew(s::String)::Bool
         cp = Int(c)
         # Hebrew: U+0590 to U+05FF
         # Alphabetic Presentation Forms (Hebrew): U+FB1D to U+FB4F
-        if !((0x0590 <= cp <= 0x05FF) || (0xFB1D <= cp <= 0xFB4F))
+        if cp == 32
+            return true
+        elseif !((0x0590 <= cp <= 0x05FF) || (0xFB1D <= cp <= 0xFB4F)) || c == " "
             return false
         end
     end
