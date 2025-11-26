@@ -2502,14 +2502,14 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 2501|genesis 25.25|וַיֵּצֵא|Verb, Qal, Wayyiqtol, 3ms|יצא|egressus est|Verb, Perfect, Indicative, Deponent, 3s|egredior|ἐξῆλθεν|Verb, Aorist, Active, Indicative, 3s|ἐξέρχομαι|וּנְפַק|Verb, Peal, Perfect, 3ms|נפק||
 2502|genesis 25.25|וַיִּקְרְאוּ|Verb, Qal, Wayyiqtol, 3mp|קרא|vocatum est|Verb, Perfect, Passive, Indicative, 3s|voco|ἐπωνόμασεν|Verb, Aorist, Active, Indicative, 3s|ἐπονομάζω|וּקְרוֹ|Verb, Peal, Perfect, 3cp|קרא|Number differs: plural subject in MT/TO; singular in LXX; impersonal passive in VUL.|
 2503|genesis 25.26|יָצָא|Qal Perfect 3ms|יָצָא|egressus est|Perfect Deponent Indicative 3s|egredior|ἐξῆλθεν|Aorist Active Indicative 3s|ἐξέρχομαι|נְפַק|Peal Perfect 3ms|נְפַק|
-2504|genesis 25.26|אֹחֶזֶת|Qal Active Participle fs|אָחַז|ἐπειλημμένη|Perfect Middle Participle nom fs|ἐπιλαμβάνω|tenens|Present Active Participle nom ms|teneo|אֲחִידָא|Peal Passive Participle fs|אֲחַד|
-2505|genesis 25.26|וַיִּקְרָא|Qal Waw-consecutive Imperfect 3ms|קָרָא|ἐπωνόμασεν|Aorist Active Indicative 3s|ἐπονομάζω|vocavit|Perfect Active Indicative 3s|voco|וּקְרָא|Peal Perfect 3ms|קְרָא|
-2506|genesis 25.26||||ἦν|Imperfect Active Indicative 3s|εἰμί|erat|Imperfect Active Indicative 3s|sum||||
-2507|genesis 25.26|בְּלֶדֶת|Qal Infinitive Construct|יָלַד|ἔτεκεν|Aorist Active Indicative 3s|τίκτω|nati sunt|Perfect Passive Indicative 3p|nascor|יְלֵידַת|Peal Perfect 3fs|יְלַד|
+2504|genesis 25.26|אֹחֶזֶת|Qal Active Participle fs|אָחַז|tenens|Present Active Participle nom ms|teneo|ἐπειλημμένη|Perfect Middle Participle nom fs|ἐπιλαμβάνω|אֲחִידָא|Peal Passive Participle fs|אֲחַד|
+2505|genesis 25.26|וַיִּקְרָא|Qal Waw-consecutive Imperfect 3ms|קָרָא|vocavit|Perfect Active Indicative 3s|voco|ἐπωνόμασεν|Aorist Active Indicative 3s|ἐπονομάζω|וּקְרָא|Peal Perfect 3ms|קְרָא|
+2506|genesis 25.26||||erat|Imperfect Active Indicative 3s|sum|ἦν|Imperfect Active Indicative 3s|εἰμί||||
+2507|genesis 25.26|בְּלֶדֶת|Qal Infinitive Construct|יָלַד|nati sunt|Perfect Passive Indicative 3p|nascor|ἔτεκεν|Aorist Active Indicative 3s|τίκτω|יְלֵידַת|Peal Perfect 3fs|יְלַד|
 2508|genesis 25.27|וַיִּגְדְּלוּ|Qal waw-consecutive imperfect 3rd person masculine plural|גדל|crescente|Present active participle, ablative plural|cresco|ηὐξήθησαν|Aorist passive indicative 3rd person plural|αὐξάνω|וּרְבִיוּ|Peal perfect 3rd person common plural|רבי|
 2509|genesis 25.27|וַיְהִי|Qal waw-consecutive imperfect 3rd person masculine singular|היה|factus est|Perfect passive indicative 3rd person singular|fio|ἐγένετο|Aorist middle indicative 3rd person singular|γίνομαι|וַהֲוָה|Peal perfect 3rd person masculine singular|הוה|
 2510|genesis 25.27|יֹדֵעַ|Qal active participle masculine singular|ידע|||||εἰδὼς|Perfect active participle, nominative masculine singular|οἶδα|||||
-2511|genesis 25.27|||||venandi|Gerund, genitive singular|venor|κυνηγεῖν|Present active infinitive|κυνηγέω|||||
+2511|genesis 25.27||||venandi|Gerund, genitive singular|venor|κυνηγεῖν|Present active infinitive|κυνηγέω|||||
 2512|genesis 25.27|||||||||||נָפֵיק|Peal active participle masculine singular|נפק|Aramaic verbal equivalent for Hebrew "man of the field"
 2513|genesis 25.27|יֹשֵׁב|Qal active participle masculine singular|ישׁב|morabatur|Imperfect deponent indicative 3rd person singular|moror|οἰκῶν|Present active participle, nominative masculine singular|οἰκέω|מְשַׁמֵשׁ|Pael active participle masculine singular|שׁמשׁ|
 2514|genesis 25.28|וַיֶּאֱהַב|Qal Waw-Consecutive Imperfect 3ms|אָהַב|diligebat|Imperfect Active Indicative 3s|dīligō|ἠγάπα|Imperfect Active Indicative 3s|ἀγαπάω|וּרְחֵים|Peal Perfect 3ms|רְחַם||
