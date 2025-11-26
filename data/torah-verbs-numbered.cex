@@ -3064,7 +3064,7 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 3063|genesis 29.10|רָאָ֤ה|Qal Perfect 3ms|רָאָה|vidisset|Pluperfect Active Subjunctive 3s|video|εἶδεν|Aorist Active Indicative 3s|ὁράω|חֲזָא|Peal Perfect 3ms|חֲזָא||
 3064|genesis 29.10|וַיִּגַּשׁ֙|Qal Vayiqtol 3ms|נָגַשׁ|accedens|Present Active Participle Nominative Masculine Singular|accedo|προσελθὼν|Aorist Active Participle Nominative Masculine Singular|προσέρχομαι|וּקְרֵיב|Peal Perfect 3ms|קְרַב||
 3065|genesis 29.10|וַיָּ֤גֶל|Qal Vayiqtol 3ms|גָּלַל|removit|Perfect Active Indicative 3s|removeo|ἀπεκύλισεν|Aorist Active Indicative 3s|ἀποκυλίω|וְגַלֵּיל|Pael Perfect 3ms|גַלֵּל||
-3066|genesis 29.10|וַיַּ֖שְׁקְ|Hifil Vayiqtol 3ms|שָׁקָה|ἐπότισεν|Aorist Active Indicative 3s|ποτίζω|adaquavit|Perfect Active Indicative 3s|adaquo|וְאַשְׁקִי|Aphel Perfect 3ms|שְׁקָא||
+3066|genesis 29.10|וַיַּ֖שְׁקְ|Hifil Vayiqtol 3ms|שָׁקָה|adaquavit|Perfect Active Indicative 3s|adaquo|ἐπότισεν|Aorist Active Indicative 3s|ποτίζω|וְאַשְׁקִי|Aphel Perfect 3ms|שְׁקָא||
 3067|genesis 29.11|וַיִּשַּׁק|Qal Imperfect 3MS|נָשַׁק|osculatus est|Perfect Indicative Passive 3S (deponent)|osculor|ἐφίλησεν|Aorist Indicative Active 3S|φιλέω|וּנַשֵׁיק|Peal Perfect 3MS|נְשַׁק||
 3068|genesis 29.11|וַיִּשָּׂא|Qal Imperfect 3MS|נָשָׂא|elevata|Perfect Passive Participle Ablative FS|elevo|βοήσας|Aorist Active Participle Nominative MS|βοάω|וַאֲרֵים|Aphel Perfect 3MS|רוּם||
 3069|genesis 29.11|וַיֵּבְךְּ|Qal Imperfect 3MS|בָּכָה|flevit|Perfect Indicative Active 3S|fleo|ἔκλαυσεν|Aorist Indicative Active 3S|κλαίω|וּבְכָא|Peal Perfect 3MS|בְּכָא||
@@ -3151,12 +3151,12 @@ sequence|passage|htoken|hform|hlemma|ltoken|lform|llemma|gtoken|gform|glemma|ato
 3150|genesis 29.33||||esse|Verb, present infinitive active|sum||||||Note: part of Latin indirect statement construction|
 3151|genesis 29.33|וַיִּתֶּן|Verb, Waw-consecutive imperfect, Qal, 3ms|נתן|dedit|Verb, perfect indicative active, 3s|do|προσέδωκέν|Verb, aorist indicative active, 3s|προσδίδωμι|וִיהַב|Verb, perfect, Peal, 3ms|יהב|
 3152|genesis 29.33|וַתִּקְרָא|Verb, Waw-consecutive imperfect, Qal, 3fs|קרא|vocavit|Verb, perfect indicative active, 3s|voco|ἐκάλεσεν|Verb, aorist indicative active, 3s|καλέω|וּקְרָת|Verb, perfect, Peal, 3fs|קרא|
-3153|genesis 29.34|וַתַּהַר|Qal Wayyiqtol 3fs|הרה|συνέλαβεν|Aorist Active Indicative 3s|συλλαμβάνω|concepit|Perfect Active Indicative 3s|concipiō|וְעַדִּיאַת|Peal Perfect 3fs|עדי|
-3154|genesis 29.34|וַתֵּלֶד|Qal Wayyiqtol 3fs|ילד|ἔτεκεν|Aorist Active Indicative 3s|τίκτω|peperit|Perfect Active Indicative 3s|pariō|וִילִידַת|Peal Perfect 3fs|ילד|
-3155|genesis 29.34|וַתֹּאמֶר|Qal Wayyiqtol 3fs|אמר|εἶπεν|Aorist Active Indicative 3s|εἶπον|ait|Perfect Active Indicative 3s|aiō|וַאֲמַרַת|Peal Perfect 3fs|אמר|
-3156|genesis 29.34|יִלָּוֶה|Niphal Imperfect 3ms|לוה|ἔσται|Future Middle Indicative 3s|εἰμί|copulabitur|Future Passive Indicative 3s|copulō|יִתְחַבַּר|Ithpeel Imperfect 3ms|חבר|
-3157|genesis 29.34|יָלַדְתִּי|Qal Perfect 1cs|ילד|ἔτεκον|Aorist Active Indicative 1s|τίκτω|pepererim|Perfect Active Subjunctive 1s|pariō|יְלֵידִית|Peal Perfect 1cs|ילד|
-3158|genesis 29.34|קָרָא|Qal Perfect 3ms|קרא|ἐκάλεσεν|Aorist Active Indicative 3s|καλέω|vocavit|Perfect Active Indicative 3s|vocō|קְרָא|Peal Perfect 3ms|קרא|
+3153|genesis 29.34|וַתַּהַר|Qal Wayyiqtol 3fs|הרה|concepit|Perfect Active Indicative 3s|concipiō|συνέλαβεν|Aorist Active Indicative 3s|συλλαμβάνω|וְעַדִּיאַת|Peal Perfect 3fs|עדי|
+3154|genesis 29.34|וַתֵּלֶד|Qal Wayyiqtol 3fs|ילד|peperit|Perfect Active Indicative 3s|pariō|ἔτεκεν|Aorist Active Indicative 3s|τίκτω|וִילִידַת|Peal Perfect 3fs|ילד|
+3155|genesis 29.34|וַתֹּאמֶר|Qal Wayyiqtol 3fs|אמר|ait|Perfect Active Indicative 3s|aiō|εἶπεν|Aorist Active Indicative 3s|εἶπον|וַאֲמַרַת|Peal Perfect 3fs|אמר|
+3156|genesis 29.34|יִלָּוֶה|Niphal Imperfect 3ms|לוה|copulabitur|Future Passive Indicative 3s|copulō|ἔσται|Future Middle Indicative 3s|εἰμί|יִתְחַבַּר|Ithpeel Imperfect 3ms|חבר|
+3157|genesis 29.34|יָלַדְתִּי|Qal Perfect 1cs|ילד|pepererim|Perfect Active Subjunctive 1s|pariō|ἔτεκον|Aorist Active Indicative 1s|τίκτω|יְלֵידִית|Peal Perfect 1cs|ילד|
+3158|genesis 29.34|קָרָא|Qal Perfect 3ms|קרא|vocavit|Perfect Active Indicative 3s|vocō|ἐκάλεσεν|Aorist Active Indicative 3s|καλέω|קְרָא|Peal Perfect 3ms|קרא|
 3159|genesis 29.35|וַתַּהַר|Qal Waw-Consecutive Imperfect 3fs|הָרָה|concepit|Perfect Active Indicative 3s|concipio|συνέλαβεν|Aorist Active Indicative 3s|συλλαμβάνω|וְעַבַּרַת|Peal Perfect 3fs|עבר|
 3160|genesis 29.35|וַתֵּלֶד|Qal Waw-Consecutive Imperfect 3fs|יָלַד|peperit|Perfect Active Indicative 3s|pario|ἔτεκεν|Aorist Active Indicative 3s|τίκτω|וִילֵידַת|Peal Perfect 3fs|ילד|
 3161|genesis 29.35|וַתֹּאמֶר|Qal Waw-Consecutive Imperfect 3fs|אָמַר|ait|Perfect Active Indicative 3s|aio|εἶπεν|Aorist Active Indicative 3s|λέγω|וַאֲמַרַת|Peal Perfect 3fs|אמר|
