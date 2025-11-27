@@ -235,3 +235,15 @@ function guesspos(s)
         "finite form"
     end
 end
+
+function verbsforbook(bk, aligns::Vector{Any})
+    filter(aligns) do tpl
+        startswith(tpl.passage, bk)
+    end
+end
+
+function verbsforbook(bk, f::AbstractString)
+    filter(readverbaligns(f)) do tpl
+        startswith(tpl.passage, bk)
+    end
+end
